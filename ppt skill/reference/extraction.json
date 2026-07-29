@@ -1,10 +1,12 @@
 {
   "source": {
     "canonical_name": "Master PPT Template - Standard.pptx",
+    "note": "OneDrive and CreativeStudio paths are the same file (mirrored), not two versions.",
     "theme_family": "11506_New_PPT_template_2024_v1 / 3_Payoneer Theme",
     "onedrive_item_id": "0154JJLDEQEAAK6EGQ2BGYDPXOUQ5MITAX",
     "onedrive_path": "Documents/02 Logistics/Master PPT Template - Standard.pptx",
     "onedrive_size_bytes": 94985853,
+    "creativestudio_path": "Shared Documents/Master Templates/Master PPT Template/Master PPT Template - Standard.pptx",
     "creativestudio_weburl": "https://payoneerinc.sharepoint.com/teams/CreativeStudio/Shared Documents/Master Templates/Master PPT Template/Master PPT Template - Standard.pptx",
     "download_status": "blocked_by_mcp_4mb_limit",
     "supporting_docs": [

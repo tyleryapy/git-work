@@ -4,12 +4,16 @@
 
 The full `Master PPT Template - Standard.pptx` (~39–95 MB) exceeds the Microsoft 365 MCP download limit (4 MB). This folder stores **extraction artifacts** instead of the binary.
 
-## Canonical locations
+## Canonical file (same file, two locations)
 
-| Source | Path / URL |
-|--------|------------|
+`Master PPT Template - Standard.pptx` is **one** file mirrored in two places — not two different versions:
+
+| Location | Path |
+|----------|------|
 | OneDrive (Tyler) | `Documents/02 Logistics/Master PPT Template - Standard.pptx` (item `0154JJLDEQEAAK6EGQ2BGYDPXOUQ5MITAX`) |
 | CreativeStudio | `Shared Documents/Master Templates/Master PPT Template/Master PPT Template - Standard.pptx` |
+
+Use either path; treat them as identical for style extraction.
 
 ## Artifacts
 
