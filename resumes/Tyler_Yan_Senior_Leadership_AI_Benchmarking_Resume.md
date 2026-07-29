@@ -89,4 +89,4 @@ Vice President, AI Association
 
 ## Additional
 
-Advisor to AI / robotics startups (e.g., ROKIN Tech, DeepSurge Intelligence) on strategy and go-to-market. Interests: sailing (ASA bareboat cruising), triathlon; former Bain China soccer team captain.
+Advisor to AI / robotics startups (柔灵科技 / 深涌智能) on strategy and go-to-market. Interests: sailing (ASA bareboat cruising), triathlon; former Bain China soccer team captain.
