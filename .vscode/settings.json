@@ -1,5 +1,8 @@
 {
     "chat.tools.terminal.autoApprove": {
         "git push": true
-    }
+    },
+    "git.inputValidation": true,
+    "git.defaultCloneDirectory": "${workspaceFolder}",
+    "git.commitTemplate": "${workspaceFolder}/.gitmessage"
 }
