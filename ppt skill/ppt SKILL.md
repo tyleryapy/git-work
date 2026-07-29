@@ -3,9 +3,10 @@ name: sketch2deck
 description: >-
   Convert data, key messages, design concepts, or hand-drawn sketches into a
   Payoneer-styled HTML slide ready to screenshot or export into a PowerPoint
-  deck. Use when the user says sketch2deck, sketch to deck, HTML slide, slide
-  from sketch, PPT/PowerPoint slide, deck-ready slide, make a slide, design a
-  slide, or asks to turn notes, data, concepts, or sketches into a slide.
+  deck. Use when the user says PPT, create slide, slide, deck, blank,
+  presentation, PowerPoint, sketch2deck, sketch to deck, HTML slide, blank
+  slide, make a slide, design a slide, or asks to turn notes, data, concepts,
+  or sketches into a slide or presentation.
 ---
 
 # sketch2deck
