@@ -11,14 +11,12 @@ description: >-
 
 # sketch2deck
 
-Produce a **single self-contained HTML slide** (16:9) styled to the Payoneer **Master PPT Template - Standard**. The user screenshots or exports it into their PowerPoint deck.
+Produce a **single self-contained HTML slide** (16:9) styled to the Payoneer master template. The user screenshots or exports it into their PowerPoint deck.
 
-Canonical style sources (read in order):
+Canonical style source (read when available):
 
-1. [DESIGN_STYLE_GUIDANCE.md](DESIGN_STYLE_GUIDANCE.md) — full Standard-derived rules
-2. [style-tokens.md](style-tokens.md) — condensed agent tables
-3. [reference/extraction.json](reference/extraction.json) — extracted token cache
-4. `Master PPT Template - Standard.pptx` when available locally (see [reference/README.md](reference/README.md))
+- `C:\Users\tylerya\Cursor projects\sketch2deck\DESIGN_STYLE_GUIDANCE.md`
+- `C:\Users\tylerya\Cursor projects\sketch2deck\Master PPT Template - Short.pptx`
 
 If those paths are unavailable, follow [style-tokens.md](style-tokens.md) in this skill.
 
@@ -41,7 +39,7 @@ Accept any mix of:
 
 | Input | How to use |
 |-------|------------|
-| Key messages / bullets | Map to title, tagline/subject, body, bulletList |
+| Key messages / bullets | Map to title, tagline, body, bulletList |
 | Data (tables, CSV, numbers) | Prefer chart or table; keep numbers exact |
 | Design concept (prose) | Infer layout + hierarchy; do not invent facts |
 | Hand-drawn sketch / image | Read the image; typed overlays override handwriting |
@@ -66,24 +64,15 @@ Pick the closest Payoneer layout (see [style-tokens.md](style-tokens.md)):
 | Table + status | Titles, Table and Status |
 | Two / three columns | Titles, 2/3 Content boxes and paragraphs |
 | Dense multi-box | Titles and 4 text boxes with content inside |
-| Icon + short card labels | Icon cards (2–4) |
-| Photo / product shot | Image / mockup |
-| Numbered steps / funnel stages | Timeline / process |
-| Side-by-side compare | Comparison grid |
 
-Sketch heuristics: large top text → title; dashed "Tagline" → tagline; bar/wavy/pie shapes → chart; grid → table; `❝` → quote; icon boxes → icon cards; photo rectangle → image; `*` at bottom → footnote.
+Sketch heuristics: large top text → title; dashed "Tagline" → tagline; bar/wavy/pie shapes → chart; grid → table; `❝` → quote; `*` at bottom → footnote.
 
 ### 3. Draft content
 
-- One clear title (prefer single line; max two).
+- One clear title (prefer single line).
 - One job per slide — cut secondary clutter.
-- Subjects / section labels: Demi when used as mini-headers.
 - Bullets: `•` level 1, `–` level 2, `>` level 3.
 - Charts: clustered column default; primary series `#0092F4`; no chart title; white data labels on bars when space allows.
-- Diagrams: primary stroke `#0092F4`; secondary `#B1B1B0`; use Branding Assets tint ladder for soft fills.
-- Status: green `#20DC86` / yellow `#DFD902` / red-orange `#FF4800`.
-- Icons: flat accent1/black; consistent size; no shadows.
-- Photos: grid-aligned crop; caption 18 pt; no heavy filters.
 - Footnotes: prefix `*`, muted gray, bottom-left.
 - Slide number: optional, bottom-right, `#808080`.
 
@@ -93,9 +82,9 @@ Sketch heuristics: large top text → title; dashed "Tagline" → tagline; bar/w
 2. Write a **self-contained** `.html` file (inline CSS only; no external deps).
 3. Save under the active project when possible, e.g. `slides/<slug>.html`; otherwise use a path the user names.
 4. Slide stage must be exactly **16:9** (`1920×1080` CSS pixels recommended).
-5. Match tokens in [style-tokens.md](style-tokens.md): white background, black text, Avenir Next fallback stack, accent blue for charts/highlights, Standard grid margins, diagram tints, icon/photo rules.
+5. Match tokens in [style-tokens.md](style-tokens.md): white background, black text, Avenir Next fallback stack, accent blue for charts/highlights.
 6. No drop shadows on text, no 3D charts, no non-theme colors except semantic waterfall negatives (`#FF4800`).
-7. Never use design-guide orange `#F26B43` in output. Do not use Midnight Blue `#002373` as a chart series or full-slide fill.
+7. Never use design-guide orange `#F26B43` in output.
 8. Add a minimal off-slide toolbar (outside `.slide`) with **Screenshot tip** / **Print** only — never include chrome inside the 16:9 frame.
 
 Structure:
@@ -148,8 +137,7 @@ When the user requests changes ("make title shorter", "switch to 3 columns", "us
 ## Anti-patterns
 
 - Flat purple/cream AI-default aesthetics — use Payoneer tokens only.
-- Cards with glow, pill clusters, or decorative gradients inside the slide (equal icon cards are OK when layout calls for them).
-- Circles/orbs behind chart/table slides.
+- Cards, pill clusters, glow, or decorative gradients inside the slide.
 - Invented data or filler Latin text.
 - Full PII unless the user supplied it for the slide.
 - Multiple slides in one file unless the user explicitly asks for a pack (then one `.slide` per section, still 16:9 each).

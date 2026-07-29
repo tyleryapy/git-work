@@ -18,17 +18,7 @@
       --accent6: #DA54D8;
       --border: #E3E3E3;
       --highlight: #FFE832;
-      --hyperlink: #0563C1;
-      --midnight: #002373;
-      --dark-panel: #1E1E28;
-      --tint-blue-mid: #5FBFFF;
-      --tint-blue-light: #95D4FF;
-      --tint-green-mid: #78EBB7;
-      --tint-green-light: #A5F2CF;
-      --tint-coral: #FF9166;
-      --tint-coral-mid: #FFB699;
-      --tint-coral-light: #FBC7B2;
-      --font: "Avenir Next LT Pro", "Avenir Next", "Segoe UI", Arial, system-ui, sans-serif;
+      --font: "Avenir Next LT Pro", "Avenir Next", "Segoe UI", system-ui, sans-serif;
       --slide-w: 1920px;
       --slide-h: 1080px;
     }
@@ -75,7 +65,7 @@
       color: #fff;
     }
 
-    /* === Capture only this node (16:9) — margins match Standard grid === */
+    /* === Capture only this node (16:9) === */
     .slide {
       width: var(--slide-w);
       height: var(--slide-h);
@@ -96,15 +86,6 @@
       max-width: 95%;
     }
 
-    .slide .section-header,
-    .slide .subject {
-      font-size: 53px;
-      font-weight: 600;
-      line-height: 1.2;
-      margin-bottom: 20px;
-      max-width: 95%;
-    }
-
     .slide .tagline {
       font-size: 40px;
       font-weight: 400;
@@ -117,13 +98,6 @@
       font-size: 53px;
       font-weight: 400;
       line-height: 1.35;
-    }
-
-    .slide .caption {
-      font-size: 24px;
-      font-weight: 400;
-      color: var(--muted);
-      margin-top: 12px;
     }
 
     .slide .bullets {
@@ -162,14 +136,6 @@
       left: 0;
     }
 
-    .slide .bullets ul ul {
-      font-size: 32px;
-    }
-
-    .slide .bullets ul ul > li::before {
-      content: ">";
-    }
-
     .columns {
       display: grid;
       gap: 48px;
@@ -178,10 +144,8 @@
 
     .columns.cols-2 { grid-template-columns: 1fr 1fr; }
     .columns.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
-    .columns.cols-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
 
-    .col h3,
-    .icon-card h3 {
+    .col h3 {
       font-size: 40px;
       font-weight: 600;
       margin-bottom: 16px;
@@ -190,78 +154,14 @@
 
     .col .bullets { font-size: 40px; }
 
-    .icon-cards {
-      display: grid;
-      gap: 36px;
-      margin-top: 12px;
-    }
-
-    .icon-cards.cols-2 { grid-template-columns: 1fr 1fr; }
-    .icon-cards.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
-    .icon-cards.cols-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-
-    .icon-card {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      min-height: 280px;
-    }
-
-    .icon-card .icon {
-      width: 64px;
-      height: 64px;
-      border: 3px solid var(--accent1);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent1);
-      font-size: 32px;
-      font-weight: 600;
-      flex-shrink: 0;
-    }
-
-    .icon-card p {
-      font-size: 32px;
-      line-height: 1.35;
-    }
-
-    .image-block {
-      margin-top: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      max-width: 100%;
-    }
-
-    .image-block .photo {
-      width: 100%;
-      max-height: 620px;
-      object-fit: cover;
-      background: #F3F5F7;
-      border: 1px solid var(--border);
-    }
-
-    .image-block .photo.placeholder {
-      height: 480px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--muted);
-      font-size: 32px;
-    }
-
-    table.data,
-    table.agenda {
+    table.data {
       width: 100%;
       border-collapse: collapse;
       font-size: 27px;
       margin-top: 12px;
     }
 
-    table.data th,
-    table.agenda th,
-    .table-header {
+    table.data th {
       text-align: left;
       font-size: 32px;
       font-weight: 700;
@@ -269,20 +169,11 @@
       border-bottom: 2px solid var(--border);
     }
 
-    table.data td,
-    table.agenda td {
+    table.data td {
       padding: 12px 16px;
       border-bottom: 1px solid var(--border);
       vertical-align: top;
     }
-
-    table.data tr:nth-child(even) td {
-      background: rgba(177, 177, 176, 0.08);
-    }
-
-    .status-pos { color: var(--accent2); font-weight: 600; }
-    .status-warn { color: var(--accent3); font-weight: 600; }
-    .status-neg { color: var(--accent5); font-weight: 600; }
 
     .quote-block {
       position: relative;
@@ -351,65 +242,11 @@
     }
 
     .chart .bar.baseline { background: var(--bg2); }
-    .chart .bar.pos { background: var(--accent2); }
-    .chart .bar.neg { background: var(--accent5); }
 
-    .chart .cat,
-    .chart-axis {
+    .chart .cat {
       font-size: 29px;
       color: #666;
       text-align: center;
-    }
-
-    .chart-label {
-      font-size: 28px;
-      font-weight: 600;
-      color: #fff;
-    }
-
-    .waterfall {
-      display: flex;
-      align-items: flex-end;
-      gap: 32px;
-      height: 420px;
-      margin: 24px 48px 0;
-      border-bottom: 3px solid #000;
-      position: relative;
-    }
-
-    .process {
-      display: flex;
-      align-items: stretch;
-      gap: 24px;
-      margin-top: 24px;
-    }
-
-    .process .step {
-      flex: 1;
-      border: 3px solid var(--accent1);
-      border-radius: 12px;
-      padding: 24px;
-      background: var(--tint-blue-light);
-    }
-
-    .process .step h3 {
-      font-size: 40px;
-      font-weight: 600;
-      margin-bottom: 12px;
-      color: var(--text);
-    }
-
-    .process .step p {
-      font-size: 32px;
-      line-height: 1.3;
-    }
-
-    .process .arrow {
-      align-self: center;
-      color: var(--accent1);
-      font-size: 48px;
-      font-weight: 600;
-      flex-shrink: 0;
     }
 
     .footnote {
@@ -428,8 +265,6 @@
       font-size: 27px;
       color: var(--muted);
     }
-
-    a { color: var(--hyperlink); }
 
     @media print {
       body {
@@ -472,28 +307,6 @@
       </li>
       <li>Key message three</li>
     </ul>
-
-    <!-- Example agenda (delete if unused)
-    <table class="agenda">
-      <thead>
-        <tr><th>#</th><th>Agenda Item</th><th>Owner</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Context</td><td>Name</td></tr>
-        <tr><td>2</td><td>Insight</td><td>Name</td></tr>
-      </tbody>
-    </table>
-    -->
-
-    <!-- Example icon cards (delete if unused)
-    <div class="icon-cards cols-3">
-      <div class="icon-card">
-        <div class="icon" aria-hidden="true">1</div>
-        <h3>Label</h3>
-        <p>Short supporting copy.</p>
-      </div>
-    </div>
-    -->
 
     <!-- Example chart (delete if unused)
     <div class="chart" aria-label="Bar chart">
