@@ -1,0 +1,145 @@
+{
+  "source": {
+    "canonical_name": "Master PPT Template - Standard.pptx",
+    "theme_family": "11506_New_PPT_template_2024_v1 / 3_Payoneer Theme",
+    "onedrive_item_id": "0154JJLDEQEAAK6EGQ2BGYDPXOUQ5MITAX",
+    "onedrive_path": "Documents/02 Logistics/Master PPT Template - Standard.pptx",
+    "onedrive_size_bytes": 94985853,
+    "creativestudio_weburl": "https://payoneerinc.sharepoint.com/teams/CreativeStudio/Shared Documents/Master Templates/Master PPT Template/Master PPT Template - Standard.pptx",
+    "download_status": "blocked_by_mcp_4mb_limit",
+    "supporting_docs": [
+      "DESIGN_STYLE_GUIDANCE.md (originally from Short; same theme family)",
+      "presentation-designer/STYLE_GUIDE.md (Empty 1 / SAGE)",
+      "SharePoint search snippets from Standard Branding Assets + Grid System slides"
+    ]
+  },
+  "canvas": {
+    "aspect": "16:9",
+    "width_in": 26.67,
+    "height_in": 15.0,
+    "width_emu": 24384000,
+    "height_emu": 13716000,
+    "css_px": [
+      1920,
+      1080
+    ],
+    "background": "#FFFFFF"
+  },
+  "grid": {
+    "left_content_margin_in": 0.89,
+    "left_content_margin_emu": 812800,
+    "title_top_pct": 5,
+    "content_start_pct": 15,
+    "title_placeholder_width_in": 24.9,
+    "notes": [
+      "Section header title and subtitle aligned to the horizontal grid",
+      "Detailed tables stretch within content grid columns",
+      "QUICK GUIDES TO USING THIS TEMPLATE / Branding Assets / Grid System slides in Standard"
+    ]
+  },
+  "colors": {
+    "text_primary": "#000000",
+    "text_secondary": "#808080",
+    "bg": "#FFFFFF",
+    "bg2": "#B1B1B0",
+    "accent1": "#0092F4",
+    "accent2": "#20DC86",
+    "accent3": "#DFD902",
+    "accent4": "#F7931E",
+    "accent5": "#FF4800",
+    "accent6": "#DA54D8",
+    "hyperlink": "#0563C1",
+    "followed_hyperlink": "#954F72",
+    "table_border": "#E3E3E3",
+    "highlight": "#FFE832",
+    "midnight_blue_brand_only": "#002373",
+    "never_output": "#F26B43",
+    "diagram_tints_from_standard_branding_assets": {
+      "coral": "#FF9166",
+      "coral_mid": "#FFB699",
+      "coral_light": "#FBC7B2",
+      "green": "#20DC86",
+      "green_mid": "#78EBB7",
+      "green_light": "#A5F2CF",
+      "blue": "#0092F4",
+      "blue_mid": "#5FBFFF",
+      "blue_light": "#95D4FF",
+      "gray": "#B1B1B0",
+      "gray_mid": "#BFBFBF",
+      "dark_panel": "#1E1E28",
+      "shade_steps_pct": [
+        80,
+        60,
+        40,
+        20
+      ]
+    }
+  },
+  "typography": {
+    "heading_font": "Avenir Next LT Pro Demi",
+    "body_font": "Avenir Next LT Pro",
+    "fallback": [
+      "Avenir Next",
+      "Segoe UI",
+      "Arial",
+      "system-ui",
+      "sans-serif"
+    ],
+    "scale_pt": {
+      "slide_title": 65,
+      "body_l1": 40,
+      "body_l2_tagline": 30,
+      "body_l3_5": 24,
+      "quote_attribution": 30,
+      "table_header": 24,
+      "table_body": 20,
+      "footnote": 16,
+      "slide_number": 20,
+      "chart_axis": 22,
+      "chart_data_label": "20-28",
+      "caption": 18
+    }
+  },
+  "bullets": [
+    {
+      "level": 1,
+      "char": "\u2022",
+      "size_pt": 40,
+      "spacing_after_pt": 18
+    },
+    {
+      "level": 2,
+      "char": "\u2013",
+      "size_pt": 30,
+      "spacing_after_pt": 24
+    },
+    {
+      "level": 3,
+      "char": ">",
+      "size_pt": 24,
+      "spacing_after_pt": 9
+    }
+  ],
+  "layouts_core": [
+    "Front Cover - Light B",
+    "Big title and Content - Light",
+    "Divider Cover - Light B",
+    "Numbered Divider - Light",
+    "Big text / Quotes / Testimonials - Light A",
+    "Big text / Quotes / Testimonials - Light B",
+    "Title only",
+    "Titles and Content A",
+    "Titles and 3 highlights",
+    "Titles, Table and Status",
+    "Titles, 2 Content boxes and paragraphs",
+    "Titles, 3 Content boxes and paragraphs",
+    "Titles and 4 text boxes with content inside"
+  ],
+  "layouts_extended_standard": [
+    "Icon cards (2-4 equal cards with optional icon)",
+    "Image / mockup layouts",
+    "Timeline / process steps",
+    "Comparison grids (2-3 columns)",
+    "Shaded headline-only covers / chapter starts"
+  ]
+}
