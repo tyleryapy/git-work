@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Department Review Prep — sketch2deck</title>
+  <style>
+    :root {
+      --text: #000000;
+      --muted: #808080;
+      --bg: #FFFFFF;
+      --bg2: #B1B1B0;
+      --accent1: #0092F4;
+      --accent2: #20DC86;
+      --accent3: #DFD902;
+      --accent4: #F7931E;
+      --accent5: #FF4800;
+      --accent6: #DA54D8;
+      --border: #E3E3E3;
+      --highlight: #FFE832;
+      --font: "Avenir Next LT Pro", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+      --slide-w: 1920px;
+      --slide-h: 1080px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: #E8ECF0;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 24px 16px 48px;
+    }
+
+    .export-bar {
+      width: min(100%, var(--slide-w));
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .export-bar strong { color: var(--accent1); }
+
+    .export-bar button {
+      font: inherit;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .export-bar button.primary {
+      background: var(--accent1);
+      border-color: var(--accent1);
+      color: #fff;
+    }
+
+    .slide {
+      width: var(--slide-w);
+      height: var(--slide-h);
+      background: var(--bg);
+      color: var(--text);
+      position: relative;
+      overflow: hidden;
+      padding: 54px 106px 72px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+      flex-shrink: 0;
+    }
+
+    .slide .title {
+      font-size: 86px;
+      font-weight: 600;
+      line-height: 1.15;
+      margin-bottom: 28px;
+      max-width: 95%;
+    }
+
+    .slide .title.tight { margin-bottom: 18px; }
+
+    .slide .tagline {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 1.3;
+      margin: -8px 0 36px;
+      max-width: 92%;
+    }
+
+    .slide .bullets {
+      list-style: none;
+      font-size: 53px;
+      line-height: 1.35;
+    }
+
+    .slide .bullets > li {
+      position: relative;
+      padding-left: 1.1em;
+      margin-bottom: 0.4em;
+    }
+
+    .slide .bullets > li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+
+    .slide .bullets ul {
+      list-style: none;
+      margin-top: 0.3em;
+      font-size: 40px;
+    }
+
+    .slide .bullets ul > li {
+      position: relative;
+      padding-left: 1.2em;
+      margin-bottom: 0.3em;
+    }
+
+    .slide .bullets ul > li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+    }
+
+    .slide .bullets.compact {
+      font-size: 44px;
+    }
+
+    .slide .bullets.compact ul {
+      font-size: 34px;
+    }
+
+    /* Cover */
+    .cover-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: calc(100% - 40px);
+      max-width: 92%;
+    }
+
+    .cover-inner .title {
+      font-size: 86px;
+      margin-bottom: 32px;
+    }
+
+    .cover-inner .tagline {
+      margin: 0 0 48px;
+      font-size: 40px;
+    }
+
+    .cover-meta {
+      font-size: 32px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .cover-meta span {
+      color: var(--accent1);
+      font-weight: 600;
+    }
+
+    /* Agenda table */
+    table.agenda {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+
+    table.agenda th {
+      text-align: left;
+      font-size: 32px;
+      font-weight: 700;
+      padding: 14px 20px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    table.agenda td {
+      font-size: 32px;
+      padding: 22px 20px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      line-height: 1.35;
+    }
+
+    table.agenda td.num {
+      width: 90px;
+      font-weight: 600;
+      color: var(--accent1);
+      font-size: 40px;
+    }
+
+    table.agenda td.item {
+      font-weight: 600;
+      width: 38%;
+    }
+
+    table.agenda td.detail {
+      font-weight: 400;
+      color: var(--text);
+    }
+
+    /* 3 columns */
+    .columns {
+      display: grid;
+      gap: 40px;
+      margin-top: 8px;
+    }
+
+    .columns.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+    .columns.cols-2 { grid-template-columns: 1fr 1fr; }
+
+    .col h3 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 18px;
+      color: var(--accent1);
+      line-height: 1.25;
+    }
+
+    .col .bullets {
+      font-size: 32px;
+      line-height: 1.35;
+    }
+
+    .col .bullets > li {
+      margin-bottom: 0.45em;
+    }
+
+    .col .lead {
+      font-size: 32px;
+      line-height: 1.35;
+      margin-bottom: 16px;
+    }
+
+    .phase-label {
+      display: inline-block;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--accent1);
+      margin-bottom: 8px;
+    }
+
+    .footnote {
+      position: absolute;
+      left: 106px;
+      bottom: 40px;
+      font-size: 21px;
+      color: var(--muted);
+      max-width: 75%;
+    }
+
+    .slide-num {
+      position: absolute;
+      right: 106px;
+      bottom: 40px;
+      font-size: 27px;
+      color: var(--muted);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+        gap: 0;
+      }
+      .export-bar { display: none !important; }
+      .slide {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+      }
+      @page {
+        size: 1920px 1080px;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="export-bar">
+    <div>
+      <strong>sketch2deck</strong> — screenshot each white slide, or Print → Save as PDF (background graphics on).
+    </div>
+    <div>
+      <button type="button" class="primary" onclick="window.print()">Print / PDF</button>
+    </div>
+  </div>
+
+  <!-- Slide 1: Cover / session brief -->
+  <div class="slide" data-layout="Front Cover - Light B">
+    <div class="cover-inner">
+      <h1 class="title">Department Review Prep</h1>
+      <p class="tagline">Instructions for next week’s review session — build a short, pointed presentation from the brief below.</p>
+      <p class="cover-meta">
+        <span>20 minutes</span> including Q&amp;A<br />
+        Keep the deck focused — fewer slides, clear asks
+      </p>
+    </div>
+    <div class="slide-num">1</div>
+  </div>
+
+  <!-- Slide 2: What to cover -->
+  <div class="slide" data-layout="Big title and Content - Light">
+    <h1 class="title tight">What to cover</h1>
+    <p class="tagline">Three sections only. Stay high-level and decision-ready.</p>
+    <table class="agenda">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Agenda item</th>
+          <th>Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="num">1</td>
+          <td class="item">H1 initiatives &amp; learnings</td>
+          <td class="detail">Key initiatives from H1 — what worked, what didn’t, stop / change / start next year</td>
+        </tr>
+        <tr>
+          <td class="num">2</td>
+          <td class="item">OKR achievement recap</td>
+          <td class="detail">Brief status vs. the key OKRs each person set at the start of the year</td>
+        </tr>
+        <tr>
+          <td class="num">3</td>
+          <td class="item">Phase 1 &amp; Phase 2 ideas</td>
+          <td class="detail">High-level planning ideas — optimize what we have, then where incremental investment unlocks more</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footnote">* Presentation must fit a 20-minute session including Q&amp;A — short and pointed.</div>
+    <div class="slide-num">2</div>
+  </div>
+
+  <!-- Slide 3: Content detail -->
+  <div class="slide" data-layout="Titles and 3 highlights">
+    <h1 class="title tight">Content expectations</h1>
+    <p class="tagline">Use this structure for your department deck.</p>
+    <div class="columns cols-3">
+      <div class="col">
+        <h3>1 · H1 &amp; learnings</h3>
+        <p class="lead">Key initiatives from the first half of the year.</p>
+        <ul class="bullets">
+          <li>What worked</li>
+          <li>What did not</li>
+          <li>What to stop</li>
+          <li>What to change</li>
+          <li>What to start next year</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>2 · OKR recap</h3>
+        <p class="lead">Brief achievement recap of the key OKRs provided at the beginning of the year.</p>
+        <ul class="bullets">
+          <li>Hit / miss / on track</li>
+          <li>One line of insight per OKR — not a full narrative</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>3 · Phase planning</h3>
+        <p class="phase-label">Phase 1</p>
+        <p class="lead">Optimize existing resources to achieve higher results.</p>
+        <p class="phase-label">Phase 2</p>
+        <p class="lead">High-value additional incremental investment the team wants to ask the company for to achieve higher results.</p>
+      </div>
+    </div>
+    <div class="footnote">* Share high-level ideas only for Phase 1 and Phase 2 — not a full business case.</div>
+    <div class="slide-num">3</div>
+  </div>
+</body>
+</html>
