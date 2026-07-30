@@ -13,12 +13,13 @@ description: >-
 
 Produce a **single self-contained HTML slide** (16:9) styled to the Payoneer master template. The user screenshots or exports it into their PowerPoint deck.
 
-Canonical style source (read when available):
+Canonical style sources (read in order when available):
 
-- `C:\Users\tylerya\Cursor projects\sketch2deck\DESIGN_STYLE_GUIDANCE.md`
-- `C:\Users\tylerya\Cursor projects\sketch2deck\Master PPT Template - Short.pptx`
+1. [reference/slide-masters/theme.json](reference/slide-masters/theme.json) + [reference/slide-masters/SLIDE_MASTERS.md](reference/slide-masters/SLIDE_MASTERS.md) + [reference/branding-assets-slides.md](reference/branding-assets-slides.md) — extracted from **Master PPT Template - Standard.pptx** via pptx-masters / ppt-parse-analyzer
+2. [style-tokens.md](style-tokens.md) in this skill
+3. Local template binary: `ppt skill/Master PPT Template - Standard.pptx`
 
-If those paths are unavailable, follow [style-tokens.md](style-tokens.md) in this skill.
+See [reference/README.md](reference/README.md) to re-run extraction.
 
 ## Workflow
 

@@ -1,0 +1,2687 @@
+{
+  "version": 2,
+  "sourcePptx": "/workspace/ppt skill/Master PPT Template - Standard.pptx",
+  "templateName": "Master PPT Template - Standard",
+  "date": "20260730",
+  "outputBaseName": "Master PPT Template - Standard_20260730",
+  "outputDir": "/workspace/ppt skill/Master PPT Template - Standard_20260730",
+  "manifestFile": "/workspace/ppt skill/Master PPT Template - Standard_20260730/Master PPT Template - Standard_20260730_manifest.json",
+  "presentation": {
+    "slideCount": 49,
+    "slideSize": {
+      "cx": 24384000,
+      "cy": 13716000,
+      "widthCm": 67.73,
+      "heightCm": 38.1,
+      "type": ""
+    },
+    "slideIds": [
+      {
+        "index": 1,
+        "id": "2147479410",
+        "relId": "rId5"
+      },
+      {
+        "index": 2,
+        "id": "2147479411",
+        "relId": "rId6"
+      },
+      {
+        "index": 3,
+        "id": "2147479407",
+        "relId": "rId7"
+      },
+      {
+        "index": 4,
+        "id": "2147479404",
+        "relId": "rId8"
+      },
+      {
+        "index": 5,
+        "id": "2147479418",
+        "relId": "rId9"
+      },
+      {
+        "index": 6,
+        "id": "2147479413",
+        "relId": "rId10"
+      },
+      {
+        "index": 7,
+        "id": "2147479420",
+        "relId": "rId11"
+      },
+      {
+        "index": 8,
+        "id": "2147479421",
+        "relId": "rId12"
+      },
+      {
+        "index": 9,
+        "id": "2147479416",
+        "relId": "rId13"
+      },
+      {
+        "index": 10,
+        "id": "2147479412",
+        "relId": "rId14"
+      },
+      {
+        "index": 11,
+        "id": "2147479171",
+        "relId": "rId15"
+      },
+      {
+        "index": 12,
+        "id": "2147479232",
+        "relId": "rId16"
+      },
+      {
+        "index": 13,
+        "id": "2147479168",
+        "relId": "rId17"
+      },
+      {
+        "index": 14,
+        "id": "2147479237",
+        "relId": "rId18"
+      },
+      {
+        "index": 15,
+        "id": "2147479252",
+        "relId": "rId19"
+      },
+      {
+        "index": 16,
+        "id": "2147479340",
+        "relId": "rId20"
+      },
+      {
+        "index": 17,
+        "id": "2147479289",
+        "relId": "rId21"
+      },
+      {
+        "index": 18,
+        "id": "2147479260",
+        "relId": "rId22"
+      },
+      {
+        "index": 19,
+        "id": "2147479262",
+        "relId": "rId23"
+      },
+      {
+        "index": 20,
+        "id": "2147479269",
+        "relId": "rId24"
+      },
+      {
+        "index": 21,
+        "id": "2147479264",
+        "relId": "rId25"
+      },
+      {
+        "index": 22,
+        "id": "2147479267",
+        "relId": "rId26"
+      },
+      {
+        "index": 23,
+        "id": "2147479271",
+        "relId": "rId27"
+      },
+      {
+        "index": 24,
+        "id": "2147479185",
+        "relId": "rId28"
+      },
+      {
+        "index": 25,
+        "id": "2147479272",
+        "relId": "rId29"
+      },
+      {
+        "index": 26,
+        "id": "2147479227",
+        "relId": "rId30"
+      },
+      {
+        "index": 27,
+        "id": "2147479210",
+        "relId": "rId31"
+      },
+      {
+        "index": 28,
+        "id": "2147479211",
+        "relId": "rId32"
+      },
+      {
+        "index": 29,
+        "id": "2147479310",
+        "relId": "rId33"
+      },
+      {
+        "index": 30,
+        "id": "2147479131",
+        "relId": "rId34"
+      },
+      {
+        "index": 31,
+        "id": "2147479292",
+        "relId": "rId35"
+      },
+      {
+        "index": 32,
+        "id": "2147479285",
+        "relId": "rId36"
+      },
+      {
+        "index": 33,
+        "id": "2147479176",
+        "relId": "rId37"
+      },
+      {
+        "index": 34,
+        "id": "2147479177",
+        "relId": "rId38"
+      },
+      {
+        "index": 35,
+        "id": "2147479301",
+        "relId": "rId39"
+      },
+      {
+        "index": 36,
+        "id": "2147479397",
+        "relId": "rId40"
+      },
+      {
+        "index": 37,
+        "id": "2147479277",
+        "relId": "rId41"
+      },
+      {
+        "index": 38,
+        "id": "2147479305",
+        "relId": "rId42"
+      },
+      {
+        "index": 39,
+        "id": "2147479313",
+        "relId": "rId43"
+      },
+      {
+        "index": 40,
+        "id": "2147479334",
+        "relId": "rId44"
+      },
+      {
+        "index": 41,
+        "id": "2147479282",
+        "relId": "rId45"
+      },
+      {
+        "index": 42,
+        "id": "2147479291",
+        "relId": "rId46"
+      },
+      {
+        "index": 43,
+        "id": "2147479360",
+        "relId": "rId47"
+      },
+      {
+        "index": 44,
+        "id": "2147479140",
+        "relId": "rId48"
+      },
+      {
+        "index": 45,
+        "id": "2147479130",
+        "relId": "rId49"
+      },
+      {
+        "index": 46,
+        "id": "2147479220",
+        "relId": "rId50"
+      },
+      {
+        "index": 47,
+        "id": "2147479304",
+        "relId": "rId51"
+      },
+      {
+        "index": 48,
+        "id": "2147479281",
+        "relId": "rId52"
+      },
+      {
+        "index": 49,
+        "id": "2147479414",
+        "relId": "rId53"
+      }
+    ],
+    "masterIds": [
+      {
+        "id": "2147483770",
+        "relId": "rId4"
+      }
+    ]
+  },
+  "slides": [
+    {
+      "index": 1,
+      "slideId": "2147479410",
+      "relId": "rId5",
+      "path": "ppt/slides/slide1.xml",
+      "relsPath": "ppt/slides/_rels/slide1.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Branding Assets | Grid System QUICK GUIDES TO USING THIS TEMPLATE . Section header title and subtitle aligned to the horizontal grid. A detailed table stretches over all 12 columns, ends at the 3 rd horizontal guide from bottom. Section header title and graphic element aligned to the horizontal grid. Quote/Call Out aligned to the horizontal grid. Agenda slide using 4x3 columns layout, based on the grid system. Also, the title aligns to the 2 nd horizontal guide from top. Infographic slide with c",
+      "textLength": 872,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image28.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image28.jpeg"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image29.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image29.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image30.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image30.jpeg"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image31.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image31.jpeg"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image32.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image32.jpeg"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image33.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image33.jpeg"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image34.gif",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image34.gif"
+          }
+        },
+        {
+          "id": "rId9",
+          "relationship": {
+            "id": "rId9",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image35.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image35.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 2,
+      "slideId": "2147479411",
+      "relId": "rId6",
+      "path": "ppt/slides/slide2.xml",
+      "relsPath": "ppt/slides/_rels/slide2.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Branding Assets | Color Palettes QUICK GUIDES TO USING THIS TEMPLATE . #FF9166 #20DC86 #0092F4 #B1B1B0 #FFB699 #78EBB7 #5FBFFF #BFBFBF #FBC7B2 #A5F2CF #95D4FF #D9D9D9 #FF9166 #20DC86 #0092F4 #F2F2F2 #000000 #FFFFFF #FBEEFB #F8DDF7 #F0BBEF #FDE9D2 #FCD4A5 #FABE78 #FEFDC7 #FFF162 #FFE832 Supporting colors Primary colors Monochrome graphs and charts Colorful graphs and charts - A Colorful graphs and charts - B Heat Map charts Status Flowcharts, Roadmaps etc. Secondary colors Background / Text color",
+      "textLength": 487,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image36.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image36.emf"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image37.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image37.emf"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image38.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image38.emf"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image39.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image39.emf"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image40.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image40.emf"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image41.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image41.emf"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image42.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image42.emf"
+          }
+        },
+        {
+          "id": "rId9",
+          "relationship": {
+            "id": "rId9",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image43.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image43.emf"
+          }
+        },
+        {
+          "id": "rId10",
+          "relationship": {
+            "id": "rId10",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image44.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image44.emf"
+          }
+        },
+        {
+          "id": "rId11",
+          "relationship": {
+            "id": "rId11",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image45.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image45.emf"
+          }
+        },
+        {
+          "id": "rId12",
+          "relationship": {
+            "id": "rId12",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image46.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image46.emf"
+          }
+        },
+        {
+          "id": "rId13",
+          "relationship": {
+            "id": "rId13",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image47.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image47.emf"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 3,
+      "slideId": "2147479407",
+      "relId": "rId7",
+      "path": "ppt/slides/slide3.xml",
+      "relsPath": "ppt/slides/_rels/slide3.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "This is a main title Branding Assets | Character Styles QUICK GUIDES TO USING THIS TEMPLATE This is a bold title This is a bold title Avenir Next LT Pro Demi | 180pt | Avenir Next LT Pro Demi | 150pt | Avenir Next LT Pro Demi | 100pt | This is a main title Avenir Next LT Pro Demi | 120pt | . . . *Used for short, punchy and festive titles, up to 6 words *Used for short, punchy and festive titles, up to 4 words *Used for cover slide title and/or short and festive titles, up to 8 words . *Used main",
+      "textLength": 609,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 4,
+      "slideId": "2147479404",
+      "relId": "rId8",
+      "path": "ppt/slides/slide4.xml",
+      "relsPath": "ppt/slides/_rels/slide4.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "This is a title | This is normal text This is a heading | This is a subheading Branding Assets | Character Styles QUICK GUIDES TO USING THIS TEMPLATE Avenir Next LT Pro Demi | Avenir Next LT Pro | 65pt | This is a title | This is normal text This is a heading Avenir Next LT Pro Demi | 90pt | . . *Used for callouts, statements and/or quotes slides *Used for generic slide titles and/or highlighted text | Used for section slide subtitles *Used for tiny titles and/or highlighted text | Used for tiny",
+      "textLength": 913,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 5,
+      "slideId": "2147479418",
+      "relId": "rId9",
+      "path": "ppt/slides/slide5.xml",
+      "relsPath": "ppt/slides/_rels/slide5.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Branding Assets | Icons QUICK GUIDES TO USING THIS TEMPLATE . L evel 1 L evel 2 L evel 3 L evel 4 The L evel 1 icons are plain colored, super clear and functional. They communicate simple, literal messages such as ‘Global‘, ‘Send’, ‘User‘, ‘Growth‘ etc. It is mainly used at small sizes, for example as bullet icons. The L evel 2 icons are bigger than L evel 1 ones. They can communicate more complex message, but we still need to keep it clean and not over detailed. It is mainly used at small/mediu",
+      "textLength": 833,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image48.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image48.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image49.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image49.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image50.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image50.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image51.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image51.png"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image52.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image52.emf"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image53.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image53.emf"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image54.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image54.emf"
+          }
+        },
+        {
+          "id": "rId9",
+          "relationship": {
+            "id": "rId9",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image55.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image55.emf"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 6,
+      "slideId": "2147479413",
+      "relId": "rId10",
+      "path": "ppt/slides/slide6.xml",
+      "relsPath": "ppt/slides/_rels/slide6.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Branding Assets | Graphs and Charts QUICK GUIDES TO USING THIS TEMPLATE Chart Color Legend (Right/Bottom) Data Labels (Inside End/Outside End) Legend (Right/Bottom) *Font size depends on the size of the chart and its complexity. If the chart is too busy, try to exclude Data Labels and/or Vertical Axes. . Avenir Next LT Pro Demi | 30pt | Chart Title Avenir Next LT Pro Demi | 28pt | Data Labels (Inside End/Outside End) Secondary palette Primary palette Fill+Stroke color Border width – 14pt Aa Aven",
+      "textLength": 980,
+      "imageRefs": [],
+      "chartRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart1.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart1.xml"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart2.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart2.xml"
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "slideId": "2147479420",
+      "relId": "rId11",
+      "path": "ppt/slides/slide7.xml",
+      "relsPath": "ppt/slides/_rels/slide7.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": ". Branding Assets | Libraries QUICK GUIDES TO USING THIS TEMPLATE . Realistic Mockups Simplified Mockups Payoneer Personas (Full/Isolated/Cropped to Circle images) Screenshots Background images Flags Find relevant assets with Filters Filter by Category (Payoneer Personas, Mockups , Flags etc.), Image type , Product type , Device type and more. The PowerPoint Template Assets Library See here See here See here See here See here See here Go to Library",
+      "textLength": 420,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image56.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image56.jpeg"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image57.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image57.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image58.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image58.jpeg"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image59.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image59.jpeg"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image60.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image60.jpeg"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image61.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image61.jpeg"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image62.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image62.jpeg"
+          }
+        },
+        {
+          "id": "rId15",
+          "relationship": {
+            "id": "rId15",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image63.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image63.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 8,
+      "slideId": "2147479421",
+      "relId": "rId12",
+      "path": "ppt/slides/slide8.xml",
+      "relsPath": "ppt/slides/_rels/slide8.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": {
+        "id": "rId2",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+        "target": "../notesSlides/notesSlide1.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/notesSlides/notesSlide1.xml"
+      },
+      "textPreview": "Branding Assets | Content QUICK GUIDES TO USING THIS TEMPLATE Key writing style guides . Go to the full guide *Sentence case is used when you write a title or a subheading the same way you would write a regular sentence. In sentence case, the first letter of the first word is capitalized, and all other letters and words that follow are in lowercase, except for proper nouns. 1 Use sentence case* everywhere Main exceptions Service names such as: Store Manager, Early Payments, Capital Advance, Refe",
+      "textLength": 1875,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 9,
+      "slideId": "2147479416",
+      "relId": "rId13",
+      "path": "ppt/slides/slide9.xml",
+      "relsPath": "ppt/slides/_rels/slide9.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Branding Assets | PowerPoint Help QUICK GUIDES TO USING THIS TEMPLATE Common How- To’s and questions Learn more Learn more Learn more Learn more Learn more Learn more Learn more PowerPoint help & learning See here PowerPoint for Windows training See here PowerPoint for Mac help See here More PowerPoint tutorials can be found in our Brand Design Portal. . . 1 Reuse (import) slides from another presentation* Remove or change the current theme – See here Apply a template to an existing presentation",
+      "textLength": 1364,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 10,
+      "slideId": "2147479412",
+      "relId": "rId14",
+      "path": "ppt/slides/slide10.xml",
+      "relsPath": "ppt/slides/_rels/slide10.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout69.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout69.xml"
+      },
+      "notes": null,
+      "textPreview": "QUICK GUIDES TO USING THIS TEMPLATE . Branding Assets | Contacts Fill free to contact our Creative Studio. Have any more questions? Looking for assets? Visit our Brand Design Portal Ran Segal Manager, Design Team ranse@payoneer.com Sagi Shutzman Art Director sagish@payoneer.com Anna Davydov Senior Graphic Designer Annada@payoneer.com Olha Stueck Head of Content Strategy olhast@payoneer.com Susannah Ryan Senior Manager, Marketplaces Content Strategy susannahry@payoneer.com Aziza Okab Senior Copyw",
+      "textLength": 525,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image64.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image64.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 11,
+      "slideId": "2147479171",
+      "relId": "rId15",
+      "path": "ppt/slides/slide11.xml",
+      "relsPath": "ppt/slides/_rels/slide11.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout2.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout2.xml"
+      },
+      "notes": null,
+      "textPreview": "Insert Presentation lorem ipsum dolor title Here January 17, 2024 Click to edit note Presenter name Presenter title",
+      "textLength": 109,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 12,
+      "slideId": "2147479232",
+      "relId": "rId16",
+      "path": "ppt/slides/slide12.xml",
+      "relsPath": "ppt/slides/_rels/slide12.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout4.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout4.xml"
+      },
+      "notes": null,
+      "textPreview": "Insert Presentation lorem ipsum dolor title Here Presenter name Presenter title Click to edit note January 17, 2024",
+      "textLength": 109,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 13,
+      "slideId": "2147479168",
+      "relId": "rId17",
+      "path": "ppt/slides/slide13.xml",
+      "relsPath": "ppt/slides/_rels/slide13.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout9.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout9.xml"
+      },
+      "notes": null,
+      "textPreview": "13 Click to edit presenters . . . Presenter name Presenter title Presenter name Presenter title Presenter name Presenter title Presenter name Presenter title Click to edit text | * Click to edit footnote",
+      "textLength": 190,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image65.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image65.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 14,
+      "slideId": "2147479237",
+      "relId": "rId18",
+      "path": "ppt/slides/slide14.xml",
+      "relsPath": "ppt/slides/_rels/slide14.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout45.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout45.xml"
+      },
+      "notes": null,
+      "textPreview": "14 Agenda Click to edit text | * Click to edit footnote 1 Welcome Michelle Wang, VP Investor Relations 2 Our business and opportunity Michelle Wang, VP Investor Relations 3 Building the global SMB financial stack Michelle Wang, VP Investor Relations 4 Break Michelle Wang, VP Investor Relations 5 Accelerating ICP and ARPU growth Michelle Wang, VP Investor Relations 6 Delivering long-term profitable growth Michelle Wang, VP Investor Relations 7 Q&A Michelle Wang, VP Investor Relations",
+      "textLength": 457,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 15,
+      "slideId": "2147479252",
+      "relId": "rId19",
+      "path": "ppt/slides/slide15.xml",
+      "relsPath": "ppt/slides/_rels/slide15.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout49.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout49.xml"
+      },
+      "notes": null,
+      "textPreview": "Agenda 15 Click to edit text | * Click to edit footnote 1:00 – 1: 5 pm Welcome Michelle Wang, VP Investor Relations 1: 5 – 1: 25 pm Our business and opportunity Michelle Wang, VP Investor Relations 1: 25 – 1 : 45 pm Building the global SMB financial stack Michelle Wang, VP Investor Relations 1 : 45 – 2: 0 pm Break Michelle Wang, VP Investor Relations 2: 0 – 2 : 20 pm Accelerating ICP and ARPU growth Michelle Wang, VP Investor Relations 2 : 20 – 2 : 40 pm Delivering long-term profitable growth Mi",
+      "textLength": 527,
+      "imageRefs": [
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image67.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image67.jpeg"
+          }
+        },
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image16.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image16.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image66.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image66.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 16,
+      "slideId": "2147479340",
+      "relId": "rId20",
+      "path": "ppt/slides/slide16.xml",
+      "relsPath": "ppt/slides/_rels/slide16.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout12.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout12.xml"
+      },
+      "notes": null,
+      "textPreview": "16 Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor . Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor . Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor . Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor . * Click to edit footnote Click to edit text | Click to edit text Click to edit text Click to edit text Click to edit text Presenter name Presenter title Presenter na",
+      "textLength": 547,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image68.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image68.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image69.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image69.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image70.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image70.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image71.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image71.jpeg"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image65.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image65.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 17,
+      "slideId": "2147479289",
+      "relId": "rId21",
+      "path": "ppt/slides/slide17.xml",
+      "relsPath": "ppt/slides/_rels/slide17.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout15.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout15.xml"
+      },
+      "notes": null,
+      "textPreview": "17 Click to edit Master text | Disclaimers * Click to edit footnote Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Phasellus hendrerit . Pellentesque aliquet nibh nec urna . In nisi neque , aliquet vel, dapibus id, mattis vel, nisi. Sed pretium , ligula sollicitudin laoreet viverra , tortor libero sodales leo , eget blandit nunc tortor eu nibh . Nullam mollis . Ut justo . Suspendisse neque potenti . Sed egestas , ante et vulputate volutpat , eros pede semper est , vitae luctus metus",
+      "textLength": 5842,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 18,
+      "slideId": "2147479260",
+      "relId": "rId22",
+      "path": "ppt/slides/slide18.xml",
+      "relsPath": "ppt/slides/_rels/slide18.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout59.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout59.xml"
+      },
+      "notes": null,
+      "textPreview": "18 Click to edit text | * Click to edit footnote Insert section title here Insert section subtitle here",
+      "textLength": 100,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 19,
+      "slideId": "2147479262",
+      "relId": "rId23",
+      "path": "ppt/slides/slide19.xml",
+      "relsPath": "ppt/slides/_rels/slide19.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout75.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout75.xml"
+      },
+      "notes": null,
+      "textPreview": "1 19 . Section Header Section Subheading * Click to edit footnote Click to edit text |",
+      "textLength": 81,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 20,
+      "slideId": "2147479269",
+      "relId": "rId24",
+      "path": "ppt/slides/slide20.xml",
+      "relsPath": "ppt/slides/_rels/slide20.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout123.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout123.xml"
+      },
+      "notes": null,
+      "textPreview": "Morbi in sem quis dui placerat ornare , Pellentesque odio nisi euismod . Section Subheading 20 . * Click to edit footnote",
+      "textLength": 106,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 21,
+      "slideId": "2147479264",
+      "relId": "rId25",
+      "path": "ppt/slides/slide21.xml",
+      "relsPath": "ppt/slides/_rels/slide21.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout61.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout61.xml"
+      },
+      "notes": null,
+      "textPreview": "Insert section title here 21 Click to edit text | * Click to edit footnote Insert section subtitle here",
+      "textLength": 100,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 22,
+      "slideId": "2147479267",
+      "relId": "rId26",
+      "path": "ppt/slides/slide22.xml",
+      "relsPath": "ppt/slides/_rels/slide22.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout71.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout71.xml"
+      },
+      "notes": null,
+      "textPreview": "22 Click to edit text | Insert section title here * Click to edit footnote Insert section subtitle here",
+      "textLength": 100,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image16.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image16.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image72.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image72.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image67.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image67.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 23,
+      "slideId": "2147479271",
+      "relId": "rId27",
+      "path": "ppt/slides/slide23.xml",
+      "relsPath": "ppt/slides/_rels/slide23.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout127.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout127.xml"
+      },
+      "notes": null,
+      "textPreview": "❝ Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras consequat . Section Subheading 23 . Click to edit text | * Click to edit footnote ❞ Quote name Quote title",
+      "textLength": 206,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 24,
+      "slideId": "2147479185",
+      "relId": "rId28",
+      "path": "ppt/slides/slide24.xml",
+      "relsPath": "ppt/slides/_rels/slide24.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout129.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout129.xml"
+      },
+      "notes": null,
+      "textPreview": "❝ Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras consequat . Section Subheading 24 . Click to edit text | * Click to edit footnote ❞ Quote name Quote title",
+      "textLength": 206,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image73.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image73.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image15.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image15.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 25,
+      "slideId": "2147479272",
+      "relId": "rId29",
+      "path": "ppt/slides/slide25.xml",
+      "relsPath": "ppt/slides/_rels/slide25.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout130.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout130.xml"
+      },
+      "notes": null,
+      "textPreview": "25 . Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras consequat . Section Subheading ❝ ❞ * Click to edit footnote Click to edit text | Quote name Quote title",
+      "textLength": 206,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image74.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image74.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image15.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image15.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 26,
+      "slideId": "2147479227",
+      "relId": "rId30",
+      "path": "ppt/slides/slide26.xml",
+      "relsPath": "ppt/slides/_rels/slide26.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout53.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout53.xml"
+      },
+      "notes": null,
+      "textPreview": "26 Click to edit title Click to edit text | * Click to edit footnote 1 Chapter title here Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. 2 Our business and opportunity Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. 3 Building the global SMB financial stack Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. 4 Break Lorem ipsum dolor si",
+      "textLength": 648,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image75.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image75.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 27,
+      "slideId": "2147479210",
+      "relId": "rId31",
+      "path": "ppt/slides/slide27.xml",
+      "relsPath": "ppt/slides/_rels/slide27.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout16.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout16.xml"
+      },
+      "notes": null,
+      "textPreview": "27",
+      "textLength": 2,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 28,
+      "slideId": "2147479211",
+      "relId": "rId32",
+      "path": "ppt/slides/slide28.xml",
+      "relsPath": "ppt/slides/_rels/slide28.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "28 Click to edit Master title style Click to edit Master subtitle style * Click to edit footnote Click to edit text |",
+      "textLength": 114,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 29,
+      "slideId": "2147479310",
+      "relId": "rId33",
+      "path": "ppt/slides/slide29.xml",
+      "relsPath": "ppt/slides/_rels/slide29.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout18.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout18.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 29 Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Donec odio . Quisque volutpat mattis eros. Nullam malesuada erat ut turpis . Suspendisse urna nibh viverra non semper suscipit posuere a pede . Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci . Aenean dignissim pellentesque felis . Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras consequat . P",
+      "textLength": 821,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 30,
+      "slideId": "2147479131",
+      "relId": "rId34",
+      "path": "ppt/slides/slide30.xml",
+      "relsPath": "ppt/slides/_rels/slide30.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout33.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout33.xml"
+      },
+      "notes": null,
+      "textPreview": "Morbi in sem quis dui placerat ornare . Pellentesq odio nisi euismod in pharetra a ultricies in diam. Click to edit Master title style 30 72% . Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Suspendisse urna nibh viverra non semper suscipit posuere a pede . 69% . Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci . Aenean dignissim . 54% . C lick to edit Master subtitle style * Click to edit footnote Click to edit text |",
+      "textLength": 418,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 31,
+      "slideId": "2147479292",
+      "relId": "rId35",
+      "path": "ppt/slides/slide31.xml",
+      "relsPath": "ppt/slides/_rels/slide31.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "31 Click to edit text | * Click to edit footnote Click to edit Master title style Click to edit Master subtitle style . . . 1 Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. 2 Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. 3 Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore.",
+      "textLength": 393,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image25.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image25.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image26.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image26.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image1.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image1.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 32,
+      "slideId": "2147479285",
+      "relId": "rId36",
+      "path": "ppt/slides/slide32.xml",
+      "relsPath": "ppt/slides/_rels/slide32.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout41.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout41.xml"
+      },
+      "notes": null,
+      "textPreview": "32 Click to edit text Click to edit text Click to edit text Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit Master titl",
+      "textLength": 538,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image68.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image68.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image71.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image71.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image69.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image69.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image70.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image70.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 33,
+      "slideId": "2147479176",
+      "relId": "rId37",
+      "path": "ppt/slides/slide33.xml",
+      "relsPath": "ppt/slides/_rels/slide33.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout83.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout83.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 33 Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Donec odio . Quisque volutpat mattis eros. Suspendisse urna nibh viverra non semper suscipit posuere a pede . Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci . Aenean dignissim pellentesque felis . Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras consequat . Praesent dapibus neque id cursus fa",
+      "textLength": 596,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image76.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image76.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 34,
+      "slideId": "2147479177",
+      "relId": "rId38",
+      "path": "ppt/slides/slide34.xml",
+      "relsPath": "ppt/slides/_rels/slide34.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout88.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout88.xml"
+      },
+      "notes": null,
+      "textPreview": "34 Click to edit text | * Click to edit footnote Click to edit Master title style Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Donec odio . Quisque volutpat mattis eros. Suspendisse urna nibh viverra non semper suscipit posuere a pede . Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci . Aenean dignissim pellentesque felis . Morbi in sem quis dui placerat ornare . Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu . Cras c",
+      "textLength": 593,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image16.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image16.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image77.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image77.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image67.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image67.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 35,
+      "slideId": "2147479301",
+      "relId": "rId39",
+      "path": "ppt/slides/slide35.xml",
+      "relsPath": "ppt/slides/_rels/slide35.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout107.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout107.xml"
+      },
+      "notes": null,
+      "textPreview": "35 . Section Subheading Morbi in sem quis dui placerat ornare . Pellentque odio nisi a ultricies in diam. ❝ ❞ * Click to edit footnote Click to edit text | Quote name Quote title",
+      "textLength": 161,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image78.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image78.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 36,
+      "slideId": "2147479397",
+      "relId": "rId40",
+      "path": "ppt/slides/slide36.xml",
+      "relsPath": "ppt/slides/_rels/slide36.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout120.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout120.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 36 Click to edit text | * Click to edit footnote Click to edit Master subtitle style COMPANY Company name Company origin country Short description about the company Company size Payoneer customers since X USES PAYONEER FOR: Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore.",
+      "textLength": 355,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image17.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image17.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image79.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image79.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image77.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image77.jpeg"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image67.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image67.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 37,
+      "slideId": "2147479277",
+      "relId": "rId41",
+      "path": "ppt/slides/slide37.xml",
+      "relsPath": "ppt/slides/_rels/slide37.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout142.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout142.xml"
+      },
+      "notes": null,
+      "textPreview": "37 * Click to edit footnote Click to edit text | Click to edit Master title style Click to edit Master subtitle style",
+      "textLength": 114,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image80.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image80.jpeg"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image81.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image81.jpeg"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image82.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image82.jpeg"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image83.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image83.png"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image84.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image84.jpeg"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image85.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image85.jpeg"
+          }
+        },
+        {
+          "id": "rId9",
+          "relationship": {
+            "id": "rId9",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image86.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image86.jpeg"
+          }
+        },
+        {
+          "id": "rId10",
+          "relationship": {
+            "id": "rId10",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image87.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image87.jpeg"
+          }
+        },
+        {
+          "id": "rId11",
+          "relationship": {
+            "id": "rId11",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image88.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image88.jpeg"
+          }
+        },
+        {
+          "id": "rId12",
+          "relationship": {
+            "id": "rId12",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image89.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image89.jpeg"
+          }
+        },
+        {
+          "id": "rId13",
+          "relationship": {
+            "id": "rId13",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image90.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image90.jpeg"
+          }
+        },
+        {
+          "id": "rId14",
+          "relationship": {
+            "id": "rId14",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image91.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image91.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 38,
+      "slideId": "2147479305",
+      "relId": "rId42",
+      "path": "ppt/slides/slide38.xml",
+      "relsPath": "ppt/slides/_rels/slide38.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout143.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout143.xml"
+      },
+      "notes": null,
+      "textPreview": "38 Click to edit Master title style Click to edit Master subtitle style * Click to edit footnote Click to edit text |",
+      "textLength": 114,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image92.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image92.tiff"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image93.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image93.tiff"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image94.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image94.tiff"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image95.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image95.tiff"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image96.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image96.jpeg"
+          }
+        },
+        {
+          "id": "rId7",
+          "relationship": {
+            "id": "rId7",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image97.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image97.png"
+          }
+        },
+        {
+          "id": "rId8",
+          "relationship": {
+            "id": "rId8",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image98.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image98.png"
+          }
+        },
+        {
+          "id": "rId9",
+          "relationship": {
+            "id": "rId9",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image99.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image99.png"
+          }
+        },
+        {
+          "id": "rId10",
+          "relationship": {
+            "id": "rId10",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image100.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image100.png"
+          }
+        },
+        {
+          "id": "rId11",
+          "relationship": {
+            "id": "rId11",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image101.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image101.tiff"
+          }
+        },
+        {
+          "id": "rId12",
+          "relationship": {
+            "id": "rId12",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image102.tiff",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image102.tiff"
+          }
+        },
+        {
+          "id": "rId13",
+          "relationship": {
+            "id": "rId13",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image103.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image103.png"
+          }
+        },
+        {
+          "id": "rId14",
+          "relationship": {
+            "id": "rId14",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image104.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image104.png"
+          }
+        },
+        {
+          "id": "rId15",
+          "relationship": {
+            "id": "rId15",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image105.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image105.png"
+          }
+        },
+        {
+          "id": "rId16",
+          "relationship": {
+            "id": "rId16",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image106.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image106.jpeg"
+          }
+        },
+        {
+          "id": "rId17",
+          "relationship": {
+            "id": "rId17",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image107.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image107.png"
+          }
+        },
+        {
+          "id": "rId18",
+          "relationship": {
+            "id": "rId18",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image108.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image108.png"
+          }
+        },
+        {
+          "id": "rId20",
+          "relationship": {
+            "id": "rId20",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image109.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image109.png"
+          }
+        },
+        {
+          "id": "rId21",
+          "relationship": {
+            "id": "rId21",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image110.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image110.jpeg"
+          }
+        },
+        {
+          "id": "rId22",
+          "relationship": {
+            "id": "rId22",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image111.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image111.emf"
+          }
+        },
+        {
+          "id": "rId23",
+          "relationship": {
+            "id": "rId23",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image112.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image112.emf"
+          }
+        },
+        {
+          "id": "rId24",
+          "relationship": {
+            "id": "rId24",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image113.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image113.emf"
+          }
+        },
+        {
+          "id": "rId25",
+          "relationship": {
+            "id": "rId25",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image114.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image114.emf"
+          }
+        },
+        {
+          "id": "rId26",
+          "relationship": {
+            "id": "rId26",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image115.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image115.png"
+          }
+        },
+        {
+          "id": "rId28",
+          "relationship": {
+            "id": "rId28",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image117.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image117.png"
+          }
+        },
+        {
+          "id": "rId30",
+          "relationship": {
+            "id": "rId30",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image119.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image119.emf"
+          }
+        },
+        {
+          "id": "rId31",
+          "relationship": {
+            "id": "rId31",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image120.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image120.emf"
+          }
+        },
+        {
+          "id": "rId32",
+          "relationship": {
+            "id": "rId32",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image121.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image121.png"
+          }
+        },
+        {
+          "id": "rId34",
+          "relationship": {
+            "id": "rId34",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image123.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image123.png"
+          }
+        },
+        {
+          "id": "rId35",
+          "relationship": {
+            "id": "rId35",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image124.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image124.emf"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 39,
+      "slideId": "2147479313",
+      "relId": "rId43",
+      "path": "ppt/slides/slide39.xml",
+      "relsPath": "ppt/slides/_rels/slide39.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout17.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout17.xml"
+      },
+      "notes": null,
+      "textPreview": "Payoneer at a glance 39 Click to edit Master subtitle style * Click to edit footnote Click to edit text | Kiev International users 4M 65% Cross-border payments in markets where Payoneer has a local presence 70% Growth in global cross-border payments is where Payoneer has local presence Countries and territories 200+ Tel Aviv New York Buenos Aires Gibraltar Barcelona London Delhi Manila Sydney Bangalore California Locations 21 Shenzhen Hong Kong Shanghai Seoul Tokyo",
+      "textLength": 437,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image125.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image125.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image127.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image127.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image126.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image126.png"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image128.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image128.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 40,
+      "slideId": "2147479334",
+      "relId": "rId44",
+      "path": "ppt/slides/slide40.xml",
+      "relsPath": "ppt/slides/_rels/slide40.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout138.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout138.xml"
+      },
+      "notes": {
+        "id": "rId2",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+        "target": "../notesSlides/notesSlide2.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/notesSlides/notesSlide2.xml"
+      },
+      "textPreview": "Click to edit Master title style 40 Click to edit text | * Click to edit footnote Click to edit Master subtitle style Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Click to edit te",
+      "textLength": 768,
+      "imageRefs": [
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image67.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image67.jpeg"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image129.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image129.emf"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image72.jpeg",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image72.jpeg"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 41,
+      "slideId": "2147479282",
+      "relId": "rId45",
+      "path": "ppt/slides/slide41.xml",
+      "relsPath": "ppt/slides/_rels/slide41.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout38.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout38.xml"
+      },
+      "notes": null,
+      "textPreview": "41 E dit title Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. E dit title Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. E dit title Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. E dit title Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit Master title style Click to edit Master",
+      "textLength": 502,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image130.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image130.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image131.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image131.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image132.emf",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image132.emf"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image133.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image133.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 42,
+      "slideId": "2147479291",
+      "relId": "rId46",
+      "path": "ppt/slides/slide42.xml",
+      "relsPath": "ppt/slides/_rels/slide42.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout39.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout39.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 42 Click to edit Master subtitle style Click to edit subtitle style Lorem ipsum dolor sit amet , consecteur adipiscing elit , sed incididun labore. Lorem ipsum dolor sit amet , consecteur adipiscing elit , sed incididun labore. Lorem ipsum dolor sit amet , consecteur adipiscing elit , sed incididun labore. Lorem ipsum dolor sit amet , sed incididun labore. Lorem ipsum dolor sit amet , consecteur adipiscing elit , sed incididun labore. Click to edit subtitle style",
+      "textLength": 1814,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image134.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image134.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image135.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image135.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image136.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image136.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image137.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image137.png"
+          }
+        },
+        {
+          "id": "rId6",
+          "relationship": {
+            "id": "rId6",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image138.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image138.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 43,
+      "slideId": "2147479360",
+      "relId": "rId47",
+      "path": "ppt/slides/slide43.xml",
+      "relsPath": "ppt/slides/_rels/slide43.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout141.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout141.xml"
+      },
+      "notes": null,
+      "textPreview": "Lorem ipsum dolor sit cointur ascling elit voltpat dictum tortor nec Lorem ipsum dolor sit cointur ascling elit voltpat dictum tortor nec Lorem ipsum dolor sit cointur ascling elit voltpat dictum tortor nec Lorem ipsum dolor sit cointur ascling elit voltpat dictum tortor nec 43 Click to edit text | * Click to edit footnote . Click to edit text",
+      "textLength": 310,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image139.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image139.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image140.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image140.png"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image141.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image141.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image142.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image142.png"
+          }
+        }
+      ],
+      "chartRefs": []
+    },
+    {
+      "index": 44,
+      "slideId": "2147479140",
+      "relId": "rId48",
+      "path": "ppt/slides/slide44.xml",
+      "relsPath": "ppt/slides/_rels/slide44.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout29.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout29.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 44 * Click to edit footnote Click to edit text | # Agenda Item Owner 1 Lorem ipsum dolor sit amet , consectetuer adipiscing elit Michelle Wang, VP Investor Relations 2 Aliquam tincidunt mauris eu risus 3 Vestibulum auctor dapibus neque 4 Nunc dignissim risus id metus Alison 5 Cras ornare tristique elit 6 Vivamus vestibulum ntulla nec ante 7 Praesent placerat risus quis eros 8 Fusce pellentesque suscipit nibh 9 Integer vitae libero ac risus egestas placerat 10 Ves",
+      "textLength": 481,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 45,
+      "slideId": "2147479130",
+      "relId": "rId49",
+      "path": "ppt/slides/slide45.xml",
+      "relsPath": "ppt/slides/_rels/slide45.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout29.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout29.xml"
+      },
+      "notes": null,
+      "textPreview": "45 Click to edit Master title style On track . Low risk . Mid risk . High risk . * Click to edit footnote Click to edit text | # Objective / Program HL Status Objective / Program Health Next Steps/ Milestones 1 Cras ornare tristique elit Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Donec quis dui at dolor tempor interdum . Fusce lacinia arcu et nulla . Nulla vitae mauris non felis mollis faucibus . Nulla sed leo . Class aptent taciti sociosqu ad litora torquent per conubia nostra,",
+      "textLength": 1644,
+      "imageRefs": [],
+      "chartRefs": []
+    },
+    {
+      "index": 46,
+      "slideId": "2147479220",
+      "relId": "rId50",
+      "path": "ppt/slides/slide46.xml",
+      "relsPath": "ppt/slides/_rels/slide46.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout26.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout26.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 46 Click to edit text | Click to edit Master subtitle style Click to edit text * Click to edit footnote > = 90% . 90% > X > 70% . < 70% . Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet , consectetuer adipiscing elit . Donec odio . Quisque volutpat mattis eros. Suspendisse urna nibh viverra non semper suscipit posuere a pede . Donec nec justo eget felis facilisis fermentum. Aliquam ",
+      "textLength": 740,
+      "imageRefs": [],
+      "chartRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart3.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart3.xml"
+          }
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "slideId": "2147479304",
+      "relId": "rId51",
+      "path": "ppt/slides/slide47.xml",
+      "relsPath": "ppt/slides/_rels/slide47.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout22.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout22.xml"
+      },
+      "notes": null,
+      "textPreview": "Click to edit Master title style 47 Click to edit text | * Click to edit footnote Click to edit Master subtitle style Click to edit text Click to edit text Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididunt ut labore. . .",
+      "textLength": 443,
+      "imageRefs": [],
+      "chartRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart4.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart4.xml"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart5.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart5.xml"
+          }
+        },
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart6.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart6.xml"
+          }
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "slideId": "2147479281",
+      "relId": "rId52",
+      "path": "ppt/slides/slide48.xml",
+      "relsPath": "ppt/slides/_rels/slide48.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout35.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout35.xml"
+      },
+      "notes": null,
+      "textPreview": "48 Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit text Lorem ipsum dolor sit amet , consectetur adipiscing elit , sed do eiusmod tempor incididun labore. Click to edit Master titl",
+      "textLength": 538,
+      "imageRefs": [
+        {
+          "id": "rId2",
+          "relationship": {
+            "id": "rId2",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image143.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image143.png"
+          }
+        },
+        {
+          "id": "rId3",
+          "relationship": {
+            "id": "rId3",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image144.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image144.png"
+          }
+        },
+        {
+          "id": "rId5",
+          "relationship": {
+            "id": "rId5",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+            "target": "../media/image145.png",
+            "targetMode": "",
+            "resolvedTarget": "ppt/media/image145.png"
+          }
+        }
+      ],
+      "chartRefs": [
+        {
+          "id": "rId4",
+          "relationship": {
+            "id": "rId4",
+            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+            "target": "../charts/chart7.xml",
+            "targetMode": "",
+            "resolvedTarget": "ppt/charts/chart7.xml"
+          }
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "slideId": "2147479414",
+      "relId": "rId53",
+      "path": "ppt/slides/slide49.xml",
+      "relsPath": "ppt/slides/_rels/slide49.xml.rels",
+      "layout": {
+        "id": "rId1",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+        "target": "../slideLayouts/slideLayout144.xml",
+        "targetMode": "",
+        "resolvedTarget": "ppt/slideLayouts/slideLayout144.xml"
+      },
+      "notes": null,
+      "textPreview": "",
+      "textLength": 0,
+      "imageRefs": [],
+      "chartRefs": []
+    }
+  ],
+  "counts": {
+    "archiveFiles": 636,
+    "slides": 49,
+    "layouts": 146,
+    "masters": 1,
+    "themes": 2,
+    "charts": 7,
+    "diagrams": 0,
+    "notes": 2,
+    "images": 145,
+    "media": 25,
+    "relationships": 211
+  },
+  "specialContent": {
+    "hasNotes": true,
+    "hasComments": true,
+    "hasMedia": true,
+    "hasCustomXml": true,
+    "hasVba": false
+  }
+}

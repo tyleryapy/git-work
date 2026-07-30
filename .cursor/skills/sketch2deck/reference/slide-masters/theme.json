@@ -1,0 +1,134 @@
+{
+  "colors": {
+    "dk1": "000000",
+    "lt1": "FFFFFF",
+    "dk2": "000000",
+    "lt2": "B1B1B0",
+    "accent1": "0092F4",
+    "accent2": "20DC86",
+    "accent3": "DFD902",
+    "accent4": "F7931E",
+    "accent5": "FF4800",
+    "accent6": "DA54D8",
+    "hlink": "0563C1",
+    "folHlink": "954F72"
+  },
+  "palette": {
+    "dk1": {
+      "base": "000000",
+      "lighter80": "CCCCCC",
+      "lighter60": "999999",
+      "lighter40": "666666",
+      "lighter25": "404040",
+      "darker25": "000000",
+      "darker50": "000000"
+    },
+    "lt1": {
+      "base": "FFFFFF",
+      "lighter80": "FFFFFF",
+      "lighter60": "FFFFFF",
+      "lighter40": "FFFFFF",
+      "lighter25": "FFFFFF",
+      "darker25": "BFBFBF",
+      "darker50": "808080"
+    },
+    "dk2": {
+      "base": "000000",
+      "lighter80": "CCCCCC",
+      "lighter60": "999999",
+      "lighter40": "666666",
+      "lighter25": "404040",
+      "darker25": "000000",
+      "darker50": "000000"
+    },
+    "lt2": {
+      "base": "B1B1B0",
+      "lighter80": "EFEFEF",
+      "lighter60": "E0E0DF",
+      "lighter40": "D0D0D0",
+      "lighter25": "C4C4C4",
+      "darker25": "858584",
+      "darker50": "595958"
+    },
+    "accent1": {
+      "base": "0092F4",
+      "lighter80": "CAEAFF",
+      "lighter60": "95D4FF",
+      "lighter40": "5FBFFF",
+      "lighter25": "38AFFF",
+      "darker25": "006DB7",
+      "darker50": "00497A"
+    },
+    "accent2": {
+      "base": "20DC86",
+      "lighter80": "D2F8E7",
+      "lighter60": "A5F2CF",
+      "lighter40": "78EBB7",
+      "lighter25": "56E6A4",
+      "darker25": "18A565",
+      "darker50": "106E43"
+    },
+    "accent3": {
+      "base": "DFD902",
+      "lighter80": "FEFDC7",
+      "lighter60": "FEFB8E",
+      "lighter40": "FDF956",
+      "lighter25": "FDF72B",
+      "darker25": "A7A301",
+      "darker50": "706D01"
+    },
+    "accent4": {
+      "base": "F7931E",
+      "lighter80": "FDE9D2",
+      "lighter60": "FCD4A5",
+      "lighter40": "FABE78",
+      "lighter25": "F9AE56",
+      "darker25": "C96F07",
+      "darker50": "864A05"
+    },
+    "accent5": {
+      "base": "FF4800",
+      "lighter80": "FFDACC",
+      "lighter60": "FFB699",
+      "lighter40": "FF9166",
+      "lighter25": "FF7640",
+      "darker25": "BF3600",
+      "darker50": "802400"
+    },
+    "accent6": {
+      "base": "DA54D8",
+      "lighter80": "F8DDF7",
+      "lighter60": "F0BBEF",
+      "lighter40": "E998E8",
+      "lighter25": "E37FE2",
+      "darker25": "BA28B8",
+      "darker50": "7C1B7B"
+    },
+    "hlink": {
+      "base": "0563C1",
+      "lighter80": "C2E0FD",
+      "lighter60": "85C1FC",
+      "lighter40": "49A1FA",
+      "lighter25": "1B8AF9",
+      "darker25": "044A91",
+      "darker50": "033161"
+    },
+    "folHlink": {
+      "base": "954F72",
+      "lighter80": "EBDAE3",
+      "lighter60": "D8B5C7",
+      "lighter40": "C490AA",
+      "lighter25": "B67595",
+      "darker25": "703B56",
+      "darker50": "4B2839"
+    }
+  },
+  "fonts": {
+    "heading": "Avenir Next LT Pro Demi",
+    "body": "Avenir Next LT Pro"
+  },
+  "dimensions": {
+    "width": 26.6667,
+    "height": 15
+  }
+}
