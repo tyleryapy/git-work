@@ -22,7 +22,7 @@ The tool:
 Install dependencies:
 
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Microsoft Graph permissions
@@ -75,7 +75,7 @@ The Microsoft 365 search pass found this meeting:
 List matching transcript metadata around the meeting date:
 
 ```bash
-python scripts/export_teams_transcript.py \
+python3 scripts/export_teams_transcript.py \
   --request-user-id "7c42f097-d953-412d-871c-410b9fa8b2c3" \
   --organizer-user-id "7c42f097-d953-412d-871c-410b9fa8b2c3" \
   --start-date-time "2026-07-28T00:00:00Z" \
@@ -87,7 +87,7 @@ python scripts/export_teams_transcript.py \
 Download the first matching transcript as WebVTT:
 
 ```bash
-python scripts/export_teams_transcript.py \
+python3 scripts/export_teams_transcript.py \
   --request-user-id "7c42f097-d953-412d-871c-410b9fa8b2c3" \
   --organizer-user-id "7c42f097-d953-412d-871c-410b9fa8b2c3" \
   --start-date-time "2026-07-28T00:00:00Z" \
