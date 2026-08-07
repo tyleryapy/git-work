@@ -21,20 +21,319 @@ def extract_between(text: str, start: str, end: str) -> str:
     return text[i + len(start) : j]
 
 
-def slide_shell(slide_id: int, inner_html: str, oid: str, extra_class: str = "") -> str:
-    visible = " visible" if slide_id == 0 else ""
-    cls = f"slide{extra_class}" if extra_class else "slide"
-    return f'''<section class="{cls}{visible}" id="slide-{slide_id}">
-  <div class="slide-edit-layer">
-    <div class="slide-object" data-slide-object data-oid="{oid}" data-object-type="text"
-         style="left:2.5%;top:2.5%;width:95%;height:95%;">
+def extract_chrome(ref: str) -> str:
+    i = ref.index('<div class="deck-left-hover-anchor"')
+    j = ref.index('<div class="slides-offset">', i)
+    return ref[i:j]
+
+
+PCARD_GRID = (
+    (2.5, 52.0, 46.0, 21.0),
+    (51.5, 52.0, 46.0, 21.0),
+    (2.5, 75.0, 46.0, 21.0),
+    (51.5, 75.0, 46.0, 21.0),
+)
+
+KPI_GRID = (
+    (2.5, 12.0, 22.5, 82.0),
+    (26.5, 12.0, 22.5, 82.0),
+    (50.5, 12.0, 22.5, 82.0),
+    (74.5, 12.0, 22.5, 82.0),
+)
+
+DECOMPOSE_PATTERNS: list[tuple[str, str]] = [
+    ("lead", r'<p class="lead[^"]*">.*?</p>'),
+    ("h3_ul", r'<h3 class="sub">.*?</h3>\s*<ul class="clean">.*?</ul>'),
+    ("h3", r'<h3 class="sub">.*?</h3>'),
+    ("warn", r'<div class="warn">.*?</div>'),
+    ("grid2", r'<div class="grid2">.*?</div>'),
+    ("kd", r'<div class="kd">.*?</div>'),
+    ("table", r'<table class="heat">.*?</table>\s*(?:<div class="legend">.*?</div>)?'),
+    ("steps", r'<ol(?:\s+id="steps"|\s+class="steps-static")[^>]*>.*?</ol>'),
+    ("bar", r'<div class="bar">.*?</div>'),
+    ("colhdr", r'<div class="colhdr">.*?</div>'),
+]
+
+
+def object_html(
+    slide_id: int,
+    oid_idx: int,
+    content: str,
+    left: float,
+    top: float,
+    width: float,
+    height: float | None = None,
+) -> str:
+    oid = f"s{slide_id}-o{oid_idx}"
+    height_css = f"height:{height}%;" if height is not None else ""
+    return f'''    <div class="slide-object" data-slide-object data-oid="{oid}" data-object-type="text"
+         style="left:{left}%;top:{top}%;width:{width}%;{height_css}">
       <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
       <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
       <button type="button" class="slide-object-resize" aria-label="Resize"></button>
-      <div class="slide-object-text report-slide-body" contenteditable="false">{inner_html}</div>
-    </div>
+      <div class="slide-object-text report-slide-body" contenteditable="false">{content}</div>
+    </div>'''
+
+
+def build_slide(
+    slide_id: int,
+    objects: list[tuple[str, float, float, float, float | None]],
+    *,
+    block_header: str = "",
+    extra_class: str = "",
+) -> str:
+    visible = " visible" if slide_id == 0 else ""
+    cls = f"slide{extra_class}" if extra_class else "slide"
+    header_html = ""
+    if block_header:
+        header_html = (
+            f'  <div class="slide-block-chrome report-slide-body" aria-hidden="true">'
+            f'<div class="block open static"><div class="bh">{block_header}</div></div></div>\n'
+        )
+    if not objects:
+        objects = [("", 2.5, 8.0, 95.0, 85.0)]
+    objects_html = "\n".join(
+        object_html(slide_id, idx, content, left, top, width, height)
+        for idx, (content, left, top, width, height) in enumerate(objects)
+    )
+    return f'''<section class="{cls}{visible}" id="slide-{slide_id}">
+{header_html}  <div class="slide-edit-layer">
+{objects_html}
   </div>
 </section>'''
+
+
+def extract_div_at(html: str, start: int) -> str:
+    if not html.startswith("<div", start):
+        raise ValueError("start must point at opening div")
+    depth = 0
+    i = start
+    while i < len(html):
+        if html.startswith("<div", i):
+            depth += 1
+            i = html.find(">", i) + 1
+            continue
+        if html.startswith("</div>", i):
+            depth -= 1
+            i += 6
+            if depth == 0:
+                return html[start:i]
+            continue
+        i += 1
+    raise ValueError("unclosed div")
+
+
+def find_tag_block(text: str, tag_pattern: str) -> re.Match[str] | None:
+    m = re.search(tag_pattern, text)
+    if not m:
+        return None
+    try:
+        block = extract_div_at(text, m.start())
+    except ValueError:
+        return None
+    end = m.start() + len(block)
+
+    class FakeMatch:
+        def __init__(self, start: int, end: int, group0: str):
+            self._start = start
+            self._end = end
+            self._group0 = group0
+
+        def start(self) -> int:
+            return self._start
+
+        def end(self) -> int:
+            return self._end
+
+        def group(self, idx: int) -> str:
+            if idx == 0:
+                return self._group0
+            raise IndexError(idx)
+
+    return FakeMatch(m.start(), end, block)  # type: ignore[return-value]
+
+
+def extract_inner_divs(html: str, class_name: str) -> list[str]:
+    return [inner for _, inner in extract_div_blocks(html, class_name)]
+
+
+def _match_named_block(text: str, name: str) -> re.Match[str] | None:
+    if name == "grid2":
+        return find_tag_block(text, r'<div class="grid2">')
+    for pattern_name, pattern in DECOMPOSE_PATTERNS:
+        if pattern_name != name:
+            continue
+        m = re.search(pattern, text, re.S)
+        if m:
+            return m
+    return None
+
+
+def _first_match(text: str) -> tuple[str, re.Match[str]] | None:
+    best: tuple[str, re.Match[str]] | None = None
+    for name, _pattern in DECOMPOSE_PATTERNS:
+        m = _match_named_block(text, name)
+        if not m:
+            continue
+        if best is None or m.start() < best[1].start():
+            best = (name, m)
+    return best
+
+
+def _clean_tail(text: str) -> str:
+    cleaned = re.sub(r"(?:\s*</div>\s*)+$", "", text.strip(), flags=re.I)
+    return cleaned.strip()
+
+
+def _append_object(
+    objects: list[tuple[str, float, float, float, float | None]],
+    content: str,
+    left: float,
+    top: float,
+    width: float,
+    height: float | None,
+) -> None:
+    cleaned = content.strip()
+    if not cleaned or re.fullmatch(r"(?:\s*</div>\s*)+", cleaned, flags=re.I):
+        return
+    objects.append((cleaned, left, top, width, height))
+
+
+def decompose_body(bd: str, *, start_y: float = 8.0) -> list[tuple[str, float, float, float, float | None]]:
+    objects: list[tuple[str, float, float, float, float | None]] = []
+    text = bd.strip()
+    y = start_y
+    saw_grid = False
+
+    while text:
+        found = _first_match(text)
+        if not found:
+            chunk = text.strip()
+            if chunk:
+                height = min(max(12.0, 88.0 - y), 40.0)
+                _append_object(objects, chunk, 2.5, y, 95.0, height)
+            break
+
+        name, m = found
+        before = text[: m.start()].strip()
+        if before:
+            _append_object(objects, before, 2.5, y, 95.0, 8.0)
+            y = min(y + 9.0, 82.0)
+
+        chunk = m.group(0)
+        if name == "grid2":
+            saw_grid = True
+            pcards = extract_inner_divs(chunk, "pcard")
+            for i, card_html in enumerate(pcards[:4]):
+                left, top, width, height = PCARD_GRID[i]
+                _append_object(objects, card_html, left, top, width, height)
+        elif name == "kd":
+            _append_object(objects, chunk, 2.5, y, 95.0, 16.0)
+            y = min(y + 17.0, 82.0)
+        elif name == "warn":
+            warn_top = 82.0 if saw_grid else y
+            _append_object(objects, chunk, 2.5, warn_top, 95.0, 14.0)
+            if not saw_grid:
+                y = min(y + 15.0, 84.0)
+        elif name in ("lead", "h3_ul", "h3", "table", "steps", "bar", "colhdr"):
+            height = {
+                "lead": 10.0,
+                "h3": 6.0,
+                "h3_ul": 22.0,
+                "table": 38.0,
+                "steps": min(72.0, 88.0 - y),
+                "bar": 8.0,
+                "colhdr": 5.0,
+            }[name]
+            _append_object(objects, chunk, 2.5, y, 95.0, height)
+            y = min(y + height + 1.0, 84.0)
+        else:
+            _append_object(objects, chunk, 2.5, y, 95.0, 12.0)
+            y = min(y + 13.0, 84.0)
+
+        text = text[m.end() :].strip()
+
+    return objects
+
+
+def decompose_kpi_cards(kpi_html: str) -> list[tuple[str, float, float, float, float | None]]:
+    cards = extract_inner_divs(kpi_html, "c")
+    objects: list[tuple[str, float, float, float, float | None]] = []
+    for i, card_html in enumerate(cards[:4]):
+        left, top, width, height = KPI_GRID[i]
+        objects.append((card_html, left, top, width, height))
+    if not objects and kpi_html.strip():
+        objects.append((kpi_html.strip(), 2.5, 12.0, 95.0, 82.0))
+    return objects
+
+
+def decompose_detail_body(body: str, *, start_y: float = 10.0) -> list[tuple[str, float, float, float, float | None]]:
+    objects = decompose_body(body, start_y=start_y)
+    if len(objects) > 1:
+        return objects
+    y = start_y
+    result: list[tuple[str, float, float, float, float | None]] = []
+    for chunk, height in (
+        (_first_match_chunk(body, "bar"), 8.0),
+        (_first_match_chunk(body, "colhdr"), 5.0),
+    ):
+        if chunk:
+            result.append((chunk, 2.5, y, 95.0, height))
+            y = min(y + height + 1.0, 84.0)
+            body = body.replace(chunk, "", 1).strip()
+    l1_blocks = extract_inner_divs(body, "l1")
+    if l1_blocks:
+        for l1 in l1_blocks:
+            h = min(78.0, 88.0 - y)
+            result.append((l1, 2.5, y, 95.0, h))
+            y = min(y + h + 1.0, 84.0)
+    elif body.strip():
+        result.extend(decompose_body(body, start_y=y))
+    return result or decompose_body(body, start_y=start_y)
+
+
+def _first_match_chunk(text: str, name: str) -> str:
+    m = _match_named_block(text, name)
+    return m.group(0) if m else ""
+
+
+def slide_from_body(
+    slide_id: int,
+    body_html: str,
+    *,
+    block_header: str = "",
+    extra_class: str = "",
+    start_y: float = 8.0,
+) -> str:
+    return build_slide(
+        slide_id,
+        decompose_body(body_html, start_y=start_y),
+        block_header=block_header,
+        extra_class=extra_class,
+    )
+
+
+def slide_from_single(
+    slide_id: int,
+    inner_html: str,
+    *,
+    block_header: str = "",
+    extra_class: str = "",
+    geom: tuple[float, float, float, float | None] = (2.5, 2.5, 95.0, 95.0),
+) -> str:
+    left, top, width, height = geom
+    return build_slide(slide_id, [(inner_html, left, top, width, height)], block_header=block_header, extra_class=extra_class)
+
+
+def extract_bh_bd(block_html: str) -> tuple[str, str]:
+    bh_match = re.search(r'<div class="bh">(.*?)</div>', block_html, re.S)
+    bh = bh_match.group(1) if bh_match else ""
+    bd_match = re.search(r'<div class="bd">', block_html)
+    if not bd_match:
+        return bh, ""
+    bd_div = extract_div_at(block_html, bd_match.start())
+    inner = bd_div[len('<div class="bd">'): -len("</div>")].strip()
+    return bh, inner
 
 
 def block_wrap(bh: str, bd: str, *, static: bool = False, open_: bool = True) -> str:
@@ -218,14 +517,14 @@ def main() -> None:
     src = SRC.read_text(encoding="utf-8")
 
     ref_style = extract_between(ref, "<style>", "</style>")
-    ref_chrome = extract_between(ref, '<div class="deck-left-hover-anchor"', '<div class="slides-offset">')
+    ref_chrome = extract_chrome(ref)
     ref_script = extract_between(ref, "<script>", "</script>")
     orig_script = extract_between(src, "<script>", "</script>")
 
     wrap = extract_between(src, '<div class="wrap">', '</div>\n\n<script>')
     head_match = re.search(r"<div class=\"head\">(.*?)</div>", wrap, re.S)
-    kpi_match = re.search(r'<div class="kpi">(.*?)</div>\s*', wrap, re.S)
     foot_match = re.search(r'<div class="foot">(.*?)</div>\s*$', wrap, re.S)
+    kpi_blocks = extract_div_blocks(wrap, "kpi")
 
     kadian = parse_js_array(orig_script, "KADIAN") or []
     steps = parse_js_array(orig_script, "STEPS") or []
@@ -237,36 +536,33 @@ def main() -> None:
 
     if head_match:
         slides.append(
-            slide_shell(
+            slide_from_single(
                 sid,
                 f'<div class="head reveal-block">{head_match.group(1)}</div>',
-                f"s{sid}-o0",
                 extra_class=" title-slide",
+                geom=(5.0, 15.0, 90.0, 70.0),
             )
         )
         sid += 1
 
-    if kpi_match:
-        slides.append(
-            slide_shell(sid, f'<div class="kpi reveal-block">{kpi_match.group(1)}</div>', f"s{sid}-o0")
-        )
+    if kpi_blocks:
+        _, kpi_html = kpi_blocks[0]
+        slides.append(build_slide(sid, decompose_kpi_cards(kpi_html)))
         sid += 1
 
     for cls, block_html in extract_div_blocks(wrap, "block"):
-        bh_match = re.search(
-            r'<div class="bh">(.*?)</div>\s*<div class="bd">(.*?)</div>\s*$', block_html, re.S
-        )
-        if not bh_match:
+        bh, bd = extract_bh_bd(block_html)
+        if not bh and not bd:
             continue
-        bh, bd = bh_match.group(1), bh_match.group(2)
 
         if "整体总结" in bh:
             for chunk in split_summary_slides(bd):
                 slides.append(
-                    slide_shell(
+                    slide_from_body(
                         sid,
-                        block_wrap("整体总结", chunk, static=True),
-                        f"s{sid}-o0",
+                        chunk,
+                        block_header=bh,
+                        start_y=10.0,
                     )
                 )
                 sid += 1
@@ -279,10 +575,10 @@ def main() -> None:
             )
             if lead_match and table_match:
                 slides.append(
-                    slide_shell(
+                    slide_from_body(
                         sid,
-                        block_wrap(bh, lead_match.group(0) + table_match.group(0)),
-                        f"s{sid}-o0",
+                        lead_match.group(0) + table_match.group(0),
+                        block_header=bh,
                     )
                 )
                 sid += 1
@@ -293,10 +589,10 @@ def main() -> None:
                 bullets = re.search(r"<h3 class=\"sub\">规律</h3>\s*<ul class=\"clean\">.*?</ul>", rest, re.S)
                 if bullets:
                     slides.append(
-                        slide_shell(
+                        slide_from_body(
                             sid,
-                            block_wrap(bh, bullets.group(0)),
-                            f"s{sid}-o0",
+                            bullets.group(0),
+                            block_header=bh,
                         )
                     )
                     sid += 1
@@ -315,14 +611,11 @@ def main() -> None:
                 if i == len(chunk_list(kadian, 2)) - 1:
                     body += warn
                 slides.append(
-                    slide_shell(
+                    slide_from_body(
                         sid,
-                        block_wrap(
-                            "关键洞察 3 · 卡点分类"
-                            + (f" ({i + 1}/{len(chunk_list(kadian, 2))})" if len(kadian) > 2 else ""),
-                            body,
-                        ),
-                        f"s{sid}-o0",
+                        body,
+                        block_header="关键洞察 3 · 卡点分类"
+                        + (f" ({i + 1}/{len(chunk_list(kadian, 2))})" if len(kadian) > 2 else ""),
                     )
                 )
                 sid += 1
@@ -347,10 +640,11 @@ def main() -> None:
                 if label == "低优先级 / 降本":
                     body += warn
                 slides.append(
-                    slide_shell(
+                    slide_from_body(
                         sid,
-                        block_wrap(f"下一步计划 · {label}", body, static=True),
-                        f"s{sid}-o0",
+                        body,
+                        block_header=f"下一步计划 · {label}",
+                        start_y=10.0,
                     )
                 )
                 sid += 1
@@ -362,36 +656,34 @@ def main() -> None:
                 '<div class="colhdr"><div>环节动作</div><div>分类</div><div>负责人</div></div>'
             )
             for group in data:
+                detail_body = bar + render_detail_section(group, cats)
                 slides.append(
-                    slide_shell(
+                    build_slide(
                         sid,
-                        block_wrap(
-                            "各环节详细拆解 · " + group["name"],
-                            bar + render_detail_section(group, cats),
-                            open_=True,
-                        ),
-                        f"s{sid}-o0",
+                        decompose_detail_body(detail_body, start_y=10.0),
+                        block_header="各环节详细拆解 · " + group["name"],
                         extra_class=" detail-slide",
                     )
                 )
                 sid += 1
         else:
             open_cls = "open" if "open" in cls else ""
+            header = bh if open_cls else bh
             slides.append(
-                slide_shell(
+                slide_from_body(
                     sid,
-                    f'<div class="block {open_cls}"><div class="bh">{bh}</div><div class="bd">{bd}</div></div>',
-                    f"s{sid}-o0",
+                    bd,
+                    block_header=header,
                 )
             )
             sid += 1
 
     if foot_match:
         slides.append(
-            slide_shell(
+            slide_from_single(
                 sid,
                 f'<div class="foot reveal-block">{foot_match.group(1)}</div>',
-                f"s{sid}-o0",
+                geom=(10.0, 40.0, 80.0, 20.0),
             )
         )
 
@@ -420,6 +712,21 @@ def main() -> None:
     .slide.title-slide .report-slide-body { display: flex; align-items: center; justify-content: center; }
     .slide.title-slide .head { width: 100%; margin: 0; }
     .slide.detail-slide .report-slide-body { font-size: clamp(0.5rem, 0.82vw, 0.68rem); }
+    .slide-block-chrome {
+      position: absolute; top: 0; left: 0; right: 0; z-index: 4;
+      pointer-events: none;
+      padding: clamp(0.35rem, 1vh, 0.55rem) clamp(0.55rem, 1.4vw, 0.85rem) 0;
+    }
+    .slide-block-chrome .block {
+      background: transparent; box-shadow: none; border: none; height: auto; overflow: visible;
+    }
+    .slide-block-chrome .bh { margin: 0; }
+    .slide-object-text .pcard,
+    .slide-object-text .c,
+    .slide-object-text .kd,
+    .slide-object-text .warn {
+      height: 100%; box-sizing: border-box; overflow: auto;
+    }
     .report-slide-body {
       width: 100%; height: 100%; overflow: hidden;
       font-size: clamp(0.58rem, 0.98vw, 0.78rem);
@@ -680,7 +987,6 @@ def main() -> None:
   </style>
 </head>
 <body>
-<div class="deck-left-hover-anchor" id="deckLeftHover" aria-label="Deck controls">
 {ref_chrome}
 <div class="slides-offset">
 {slides_html}
