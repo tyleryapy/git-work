@@ -1,0 +1,345 @@
+Q2 2026 QBR | In Person + Virtual
+July 28, 2026•11 views•יישום SharePoint•HD
+•
+
+Documents
+
+הקלטות
+Transcript. Use arrow keys to navigate between transcript entries. Select an entry to navigate the media to the time of the entry.
+
+
+Search
+
+AI-generated content may be incorrect
+
+Erica Chan started transcription
+C
+
+Conf NY HQ Central Park Training Room
+0 minutes 3 seconds0:03
+Conf NY HQ Central Park Training Room 0 minutes 3 seconds
+Time around, so what we're gonna do is we'll kick off with some voice of the customer research from our research team, and we'll go into our numbers and financials, where Edan and the go-to-market team will update us on how we're doing, and then we'll deep dive into our true ICP segment, segment A and segment A.
+
+Mar Fernandez
+0 minutes 15 seconds0:15
+Mar Fernandez 0 minutes 15 seconds
+Ha ha ha ha.
+C
+
+Conf NY HQ Central Park Training Room
+0 minutes 22 seconds0:22
+Conf NY HQ Central Park Training Room 0 minutes 22 seconds
+be. And with that, we'll cover our OKR number one, which is how we grow a market. And then special appearances today, we're going to hear from our regions to really understand how our strategy is panning out in real life on the ground in the regions.
+Conf NY HQ Central Park Training Room 0 minutes 41 seconds
+Then we'll take a short break. At 11 A.m. Eastern, we'll come back to talk about the rest of our OKRs with a deep dive on our cards business. We are today skipping detailed verbal updates on objective 4, which is invest and innovate.
+Conf NY HQ Central Park Training Room 1 minute 1 second
+But Rob, Max, and Mor have prepared detailed slides in the deck, which I encourage you all to look at.
+Conf NY HQ Central Park Training Room 1 minute 9 seconds
+So without further ado, let's get this party started.
+Conf NY HQ Central Park Training Room 1 minute 14 seconds
+So to him, do you want to project your screen to tell us what our true ICP research is telling us?
+
+Tuhin Ranjan
+1 minute 24 seconds1:24
+Tuhin Ranjan 1 minute 24 seconds
+I think we'll present from your screen, Erica, the HTML file just crashed on me last minute. So I think we'll just use your laptop technology, unfortunately. Okay, great. Thank you. Thank you so much and welcome everyone. So what we're going to discuss today is we've been talking about a true ICP and then subsequently we also have a dedicated section on true ICP.
+C
+
+Conf NY HQ Central Park Training Room
+1 minute 30 seconds1:30
+Conf NY HQ Central Park Training Room 1 minute 30 seconds
+Okay.
+
+Tuhin Ranjan
+1 minute 49 seconds1:49
+Tuhin Ranjan 1 minute 49 seconds
+We wanted to literally pop the hood up and talk about who these true ICPs are. And I know there are a lot of numbers sitting in here. There is a lot of text over here, but trust me, I'm going to explain every number. I'll also take questions. But before I do that, I just want to talk a little bit about the signs
+
+Tal Zvi Perry
+35 minutes 52 seconds35:52
+Tal Zvi Perry 35 minutes 52 seconds
+Yes, please. So first of all, I'll say I think that we have a bit less than 30 minutes because of like, well, we are already with time, right, Erica? So we'll know to arrange our time better.
+Tal Zvi Perry 36 minutes 9 seconds
+Okay, so maybe a quick executive summary and then I'll let Noam and Aluma take you through the details. I think that when we look at segment A,
+Tal Zvi Perry 36 minutes 22 seconds
+The few top things that we can say is, one, the segment is growing, right? It's strongly growing and it's something that we see consistently throughout the recent months. We will say that a lot of this growth is coming from goods and not from services, so from B2B goods.
+Tal Zvi Perry 36 minutes 42 seconds
+which again, in the last minutes, we've already discussed the difference between goods and services. The take rates are lower, the customers are many times bigger, and also the product adoption is different. They use mostly withdraw to bank and pay outside the network.
+Tal Zvi Perry 37 minutes 1 second
+This is something that we are trying to fix or working on fixing with more personalization towards, sorry, sorry, towards the personalization and to the customer that we're actually targeting within the segment. And this is something that we'll walk you through in the next few slides.
+Tal Zvi Perry 37 minutes 22 seconds
+When we look at the strategic program management, you hear a lot of noise, like, I'm super sorry, let me close the door.
+
+John Caplan
+37 minutes 30 seconds37:30
+John Caplan 37 minutes 30 seconds
+It, it's fine. It's totally fine.
+
+Tal Zvi Perry
+37 minutes 33 seconds37:33
+Tal Zvi Perry 37 minutes 33 seconds
+No, I'm sorry for that. So when we look at the strategic program management, it's mostly on track acquisition as a large shared numbers like actual versus target looks very well. And here again, we're talking about refining the true ISP like some sort of a 360
+Tal Zvi Perry 37 minutes 53 seconds
+understanding across acquisition, retention and growth to really ensure that we're bringing in the right customer that we can retain and grow over time. In terms of localization, I think we've seen very nice results in Brazil, for example, where we had it live already. India localization is on track. There are some challenges around Singapore and UAE in terms of capacity,
+Tal Zvi Perry 38 minutes 18 seconds
+but we'll talk more about it. Packages, again, scaling and looking good also in the segment, and product adoption, which is something that is very interesting to look into, remains pretty flat, actually. If we go to the asks, I think that overall, and going back to also some of the things that Tuhin said in his overview,
+
+John Caplan
+38 minutes 29 seconds38:29
+John Caplan 38 minutes 29 seconds
+Okay.
+
+Tal Zvi Perry
+38 minutes 41 seconds38:41
+Tal Zvi Perry 38 minutes 41 seconds
+I think that we do see that we are still lacking some of the SMB grade functionalities in order to really win the customer that we are targeting within the segment. I think FBA is one of them, and that's what we're also putting here under the asks for corporate firm.
+Tal Zvi Perry 39 minutes
+something that we do want to prioritize, hopefully still this year, and make sure that resource allocation is also stable for other things that are already in motion, like entity model, role management, and etc. So
+Tal Zvi Perry 39 minutes 19 seconds
+The review now will be like, we'll have two, like 3 parts. We'll quickly review performance. Then we want to walk you through the personalization process that we're currently focusing on. And if we'll have time, we'll also show the progress on the strategic program management.
+
+Noam Mani
+39 minutes 42 seconds39:42
+Noam Mani 39 minutes 42 seconds
+So, hey guys, my name is Noam. For those of you who don't know me, I'm replacing Clara Harel while she's on maternity leave, leading the B2B services segment. So, in Q2, I think we had a good increase in the key metrics between 20% and 50%, so group logos grew by 18%.
+Noam Mani 40 minutes 1 second
+Revenue grew by 31% and volume grew by 53%. From absolute numbers in Q2, we reached 18 and a half million dollars, up from 14.1 in the previous quarter of last year. I would say that at the same time, we're seeing a decline in the take rate, while about a year ago, our take rate
+Noam Mani 40 minutes 20 seconds
+was about 1%. In Q2 of 2026, it was about 0.82%, and in June it was 0.76%.
+Noam Mani 40 minutes 31 seconds
+because of a mix of things, including the package adoption that is increasing and also our dependency on SME clients, which was the segment that grew the strongest, 63% of the revenue and 44% year over year, compared to only 14% year over year in SMEs.
+Noam Mani 40 minutes 50 seconds
+If we're breaking it down by region, we see that...
+Noam Mani 40 minutes 54 seconds
+EMEA is leading with over $11 million in Q2 and 355% year-over-year growth. I would say that it's worth pointing out, and I think people mentioned it earlier, that we have quite a large portion of EMEA whales, mainly Ukrainian goods traders.
+Noam Mani 41 minutes 13 seconds
+They are about one and a half $1,000,000 in June compared to nearly $4 million of EMEA also in June. We also see strong growth in APAC between 90% to 110% in the SMEs again for the 250 plus and the $1 million plus.
+Noam Mani 41 minutes 32 seconds
+Erica.
+Noam Mani 41 minutes 35 seconds
+And indeed, as we have mentioned earlier, we see a steady increase in bringing in new 50K B2B clients in LIA. Looking at the left-hand side, we see an increase, a steady increase in FFTs in the past year. However, as Tal and also Elad mentioned earlier,
+Noam Mani 41 minutes 53 seconds
+More and more of them are goods. So if we're looking at the new volume in only in the first half of 2026, we say about $450 million compared to $173 million in the entire 2025. And its portion in the entire new volume is nearly 50% right now compared to
+Noam Mani 42 minutes 13 seconds
+Twenty percent last year. Also, the numbers show that retention across the border.
+
+John Caplan
+42 minutes 18 seconds42:18
+John Caplan 42 minutes 18 seconds
+Where do you see that? Where is that Noam?
+
+Noam Mani
+42 minutes 21 seconds42:21
+Noam Mani 42 minutes 21 seconds
+Right here on the left-hand side, goods compared to services.
+
+John Caplan
+42 minutes 24 seconds42:24
+John Caplan 42 minutes 24 seconds
+Okay, okay.
+
+Noam Mani
+42 minutes 27 seconds42:27
+Noam Mani 42 minutes 27 seconds
+OK, and also with me.
+
+John Caplan
+42 minutes 27 seconds42:27
+John Caplan 42 minutes 27 seconds
+Yep, yep.
+
+Noam Mani
+42 minutes 29 seconds42:29
+Noam Mani 42 minutes 29 seconds
+Sorry?
+
+John Caplan
+42 minutes 30 seconds42:30
+John Caplan 42 minutes 30 seconds
+No, it's okay. I just was, I keep going, keep going.
+
+Noam Mani
+42 minutes 32 seconds42:32
+Noam Mani 42 minutes 32 seconds
+Okay, and what we're also seeing, I think Tal mentioned it earlier, is that the retention figures across services, revenue, volume, logos, is much higher when we compare it to the goods, which is between 60 to 70 percent. If we deep dive into the new clients' revenue in the past year, February to February,
+Noam Mani 42 minutes 53 seconds
+Out of the nine largest revenue generators, new clients, B2B in LIA, seven of them are goods, mostly from Ukraine. And we can see, like pointed out earlier, that the vast majority, if not the exclusive usage of them is
+Noam Mani 43 minutes 12 seconds
+withdraw to back and pawn, which are low margins.
+Noam Mani 43 minutes 16 seconds
+compared to high value services where the adoption is very, very flat or very, very low, sorry. So when we took a step back and when I say we is asset growth, but also Aluma, Shimi and others that we work with in platform, we're asking ourselves, how do we bring in clients that in the 1st place need more of our
+Noam Mani 43 minutes 37 seconds
+products or more of our high value services products? How do we drive stronger adoption and use over time? And how do we build differentiated products that these clients actually care about? And that's the entire process of personalization or ICPification as we will touch on shortly, but maybe
+Noam Mani 43 minutes 56 seconds
+Any questions so far?
+Noam Mani 44 minutes 2 seconds
+Okay, Erica. Yeah.
+
+John Caplan
+44 minutes 2 seconds44:02
+John Caplan 44 minutes 2 seconds
+I think, I mean, I think one of the things we all have to recognize, obviously, is China's 1/3 of our revenue critical, the 15% improvement that Idan talked about before, those are all goods customers. So just, you know, understanding the net revenue retention of a goods customer versus a services customer,
+John Caplan 44 minutes 22 seconds
+when the importance of goods exporters to our marketplace business is so extreme. You may be on those slides just referring to LIA customers, but in general, just making sure that we understand we can't get the total sum of the Payoneer results without super healthy marketplace business and growing goods exporters from China for sure.
+John Caplan 44 minutes 43 seconds
+understanding that net revenue retention for non-China goods exporters in LIA is 15% lower than it is a services company makes sense, but the volume per customer is far greater and just making sure we understand the sort of outcome we're trying to get to, not just the
+John Caplan 45 minutes 3 seconds
+And our number trying to hit.
+
+Noam Mani
+45 minutes 7 seconds45:07
+Noam Mani 45 minutes 7 seconds
+Fair enough.
+
+
+Barak Sandach
+2 hours 48 minutes 40 seconds2:48:40
+Barak Sandach 2 hours 48 minutes 40 seconds
+PAN number and also the transaction of the card. Down the road in the next phase, we will also give them the 3D secure code, at least from FCB. This is a midway to actually offer the employee card and everything that you're also developing here is also in perspective to be ready for the employee card.
+C
+Conf NY HQ Central Park Training Room
+2 hours 48 minutes 48 seconds2:48:48
+Conf NY HQ Central Park Training Room 2 hours 48 minutes 48 seconds
+Up.
+
+Barak Sandach
+2 hours 49 minutes 3 seconds2:49:03
+Barak Sandach 2 hours 49 minutes 3 seconds
+We're probably going to present it in the end of Q4. Additionally, of course, we are dealing with continuing to improve the UX. You can read there. We're also doing a lot of mandates, automation in processes, and also, of course, VSR like Aurora and moving to the cloud. Let's move to the next slide.
+Barak Sandach 2 hours 49 minutes 29 seconds
+Now, what you don't see, actually, it's two projects. First of all, it's the employee card. Before this planning, actually, we had a very good meetings together with compliance and also with CLM to prioritize the employee card. And lucky my friends, they agreed to
+Barak Sandach 2 hours 49 minutes 47 seconds
+change some of the priority. And the good news is that they will build us the infrastructure for the employee card. And in the 4th queue, we will be able also to ship the employee card. I think it's very important, especially for the two ICP and also for a new customer acquisition.
+C
+Conf NY HQ Central Park Training Room
+2 hours 49 minutes 50 seconds2:49:50
+Conf NY HQ Central Park Training Room 2 hours 49 minutes 50 seconds
+Up.
+
+Barak Sandach
+2 hours 50 minutes 7 seconds2:50:07
+Barak Sandach 2 hours 50 minutes 7 seconds
+Thank you, Yaron, Orpeli, and Ido to actually prioritize prioritization of that and understanding the importance for card. Additionally, new processor integration. So we are continuing to hiring the team for that. We are still missing additional 2 developer and also one product.
+Barak Sandach 2 hours 50 minutes 29 seconds
+We hopefully have, we will have them in place in two to three weeks. And in addition to that, we will also schedule a meeting with the corporate forum to recommend on the additional process. So we are ready in that sense, we have presentation, we did the P&L. The last mile is actually to sit also with you to approve it and to move it forward.
+Barak Sandach 2 hours 50 minutes 51 seconds
+In parallel, by the way, we are also negotiating. We try to see the agreement because it's supposed to end by the end of the year. It's not moving at the pace that we would like to that we would like it to move, but hopefully we'll have news also once we will deal with the additional process. So let's say move to the next slide, Erica.
+Barak Sandach 2 hours 51 minutes 12 seconds
+Okay, okay, ours. Okay, so first of all, when we're looking on the RKRs, we see that in terms of the card usage, we are 1.7% below the target, but on the revenue side, we're actually minus 7% below the target of this year. There are a few reasons for that. First of all, the move from PEL to FCB also reduces some around $1 million because we have a lower margin there.
+C
+Conf NY HQ Central Park Training Room
+2 hours 51 minutes 16 seconds2:51:16
+Conf NY HQ Central Park Training Room 2 hours 51 minutes 16 seconds
+Yeah.
+
+Barak Sandach
+2 hours 51 minutes 36 seconds2:51:36
+Barak Sandach 2 hours 51 minutes 36 seconds
+We also have the double crunch on LATAM. Not only we lost customer, also the margin is much lower. Again, it was very high in the past. It is more reasonable in terms of what is the current margin, but eventually it also impacted the revenue. And also when we are looking on the NAND to ICP, and if you will go to the next slide,
+Barak Sandach 2 hours 51 minutes 58 seconds
+And we can see that in terms of the revenue, so although that we are almost on the target on the revenue, you can see that in the non-2 ACP, we are collapsing. In 2 ACP, we are actually doing very well. Okay, so the strategy in that sense is working very well, but the impact because of the collapse on the
+C
+Conf NY HQ Central Park Training Room
+2 hours 52 minutes2:52:00
+Conf NY HQ Central Park Training Room 2 hours 52 minutes
+And.
+
+Barak Sandach
+2 hours 52 minutes 17 seconds2:52:17
+Barak Sandach 2 hours 52 minutes 17 seconds
+And none to ICP is that we have, we are below the target. Now, we also need to understand that none to ICP represent almost 70% of our revenue with the higher margin. We cannot lose the track on that, at least if at least meanwhile.
+Barak Sandach 2 hours 52 minutes 37 seconds
+While we still revamping in terms of the two IECP, let's move to the next slide.
+C
+Conf NY HQ Central Park Training Room
+2 hours 52 minutes 38 seconds2:52:38
+Conf NY HQ Central Park Training Room 2 hours 52 minutes 38 seconds
+Stop.
+
+Barak Sandach
+2 hours 52 minutes 45 seconds2:52:45
+Barak Sandach 2 hours 52 minutes 45 seconds
+Looking on the region, so first of all, as we can see, China is doing above 3.7% above the targets. Also, Amazon Day was very helpful in that sense, and June was a relatively very good month. Also, EMEA is almost 2% below the target.
+Barak Sandach 2 hours 53 minutes 5 seconds
+On the other hand, APAC is minus 9 below the target. We do see that in June, we have actually a little bit change in that sense, and we're actually increasing both in South Korea and Vietnam, but still in total in this Q, it's below that. And also, we'll be looking on the time, so definitely in the time we have a lot of problem.
+
+Yaron Zakai-Or
+2 hours 53 minutes 14 seconds2:53:14
+Yaron Zakai-Or 2 hours 53 minutes 14 seconds
+The.
+
+Barak Sandach
+2 hours 53 minutes 24 seconds2:53:24
+Barak Sandach 2 hours 53 minutes 24 seconds
+both in Brazil and also in Argentina. We will explain shortly what we are actually doing in order to change that motion. Let's move to the next slide.
+Barak Sandach 2 hours 53 minutes 37 seconds
+Now, in terms of what we are actually doing and everything that we are doing actually together with the region, we go to market because everything is totally connected. So first of all, we have the Kardell new journey embrace in place. We are also trying to improve that we do see that there is increase in usage.
+C
+Conf NY HQ Central Park Training Room
+2 hours 53 minutes 55 seconds2:53:55
+Conf NY HQ Central Park Training Room 2 hours 53 minutes 55 seconds
+Okay.
+
+Barak Sandach
+2 hours 53 minutes 56 seconds2:53:56
+Barak Sandach 2 hours 53 minutes 56 seconds
+Once our customer started to go to that Braze journey, addition to that, we issue a small customer retention campaign. More than 1,000 customers got that. But on the other hand, only 2,000 opt-in. We are not sure what is the reasoning yet. We are still checking that.
+Barak Sandach 2 hours 54 minutes 16 seconds
+from the customer that did the opt-in to the new campaign, we see 50% increase. So it represents around $300,000. If we bring it to 10,000, so then it will be almost 1 million. So really we need to understand is it the channel, is it the messaging? So we are working on that. Additionally, large customer booster after Madrid, all of the region, we have a booster campaign for the
+Barak Sandach 2 hours 54 minutes 41 seconds
+large customer. We can see that there are different, depends on the region, different targets. Of course, China is the biggest target because you have the biggest market there. But we have campaigned for all of the customers. We still don't have a result of that. We just started, this is the first month, but hopefully in the next month we can actually
+
+Yaron Zakai-Or
+2 hours 55 minutes2:55:00
+Yaron Zakai-Or 2 hours 55 minutes
+Yeah.
+
+Barak Sandach
+2 hours 55 minutes 3 seconds2:55:03
+Barak Sandach 2 hours 55 minutes 3 seconds
+see the motion change. We also have a win-back plan in LATAM and also in APAC. We look on the big customer that shown. We were very aggressive with the cashback in order to bring them back to Pioneer. The target for LATAM is almost 1 million and in APAC is around $300,000. Again, we still don't have enough information to see what's going on here, but definitely
+C
+Conf NY HQ Central Park Training Room
+2 hours 55 minutes 23 seconds2:55:23
+Conf NY HQ Central Park Training Room 2 hours 55 minutes 23 seconds
+Yeah.
+
+Barak Sandach
+2 hours 55 minutes 28 seconds2:55:28
+Barak Sandach 2 hours 55 minutes 28 seconds
+Currently, we are working on that. Additionally, Argentina Winberg, this is something that is led by a lot, but it's much more than card, but also card play a lot of portion in that. We are going to provide a different pricing for the freelancers.
+C
+Conf NY HQ Central Park Training Room
+2 hours 55 minutes 43 seconds2:55:43
+Conf NY HQ Central Park Training Room 2 hours 55 minutes 43 seconds
+I.
+
+Barak Sandach
+2 hours 55 minutes 49 seconds2:55:49
+Barak Sandach 2 hours 55 minutes 49 seconds
+It involves, by the way, also development in cards, also development in pricing, but I definitely think that we must also address the none to ICP in order to maintain the revenue. Additionally, in terms of marketing, website with a much better SEO and also
+Barak Sandach 2 hours 56 minutes 9 seconds
+Four new articles that will be published very soon. The new website is already on there. We are waiting to see the numbers. In addition to that, we are planning to have a performance marketing campaign. It was supposed to start actually today. It probably will be postponed to the beginning of...
+C
+Conf NY HQ Central Park Training Room
+2 hours 56 minutes 17 seconds2:56:17
+Conf NY HQ Central Park Training Room 2 hours 56 minutes 17 seconds
+Ye.
+
+Barak Sandach
+2 hours 56 minutes 28 seconds2:56:28
+Barak Sandach 2 hours 56 minutes 28 seconds
+of next week. It's a relatively big budget, almost 650,000 EUR. Definitely we expect that it will contribute not only for cards, but of course also, but also to Pioneer in general, because we are marketing Pioneer and cards. And let's move to the next slide.
+Barak Sandach 2 hours 56 minutes 51 seconds
+What are the challenges that we see currently in cards? So first of all, the new customer acquisition, and here I'm talking from perspective of cards, not from the perspective of the company, but while I'm looking from the card perspective, the new customer acquisition is not that good for cards.
+Barak Sandach 2 hours 57 minutes 10 seconds
+because new customers are less using cards. If we won't stop that trend, it will be compounded. Already we are missing around 1,000 per customer. By the end of the year, it will be 3,000 per customer. We are working together with a lot to have training to try to investigate what is the reason for that, but definitely we need to.
+Barak Sandach 2 hours 57 minutes 30 seconds
+to change some of the motion if we want to keep the growth also in cards. Amazon volume also, I think it's, Dandan already spoke about it, it's a wide company, it's impacting a lot card because there is a direct correlation on the marketing and expense. Additionally, Amazon and Meta both.
+Barak Sandach 2 hours 57 minutes 49 seconds
+decided or trying to put some of the usage of card into ACH or in our case. We are not sure what is going to be eventually the bottom line of that push. We're also trying to promote our seller, our customer, to try to have a pushback on that.
+Barak Sandach 2 hours 58 minutes 11 seconds
+We estimate that only Amazon can impact us on around $3 million in revenue for this year. Again, we don't expect that it will be for all of the customers, but definitely for the very big one, also in China, also in Vietnam, will probably be it for that. And we definitely need to diversify probably yesterday.
+Barak Sandach 2 hours 58 minutes 31 seconds
+We'll talk about it soon. And that to ICP, we talked about it definitely. We also, Argentina, it's an excellent example for that. We need to also to try to spot additional market for that and to also to counter our competitors in the different markets.
+
