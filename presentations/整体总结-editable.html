@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-deck-id="zhengti-zongjie-v1" data-mobile-adaptation="desktop-default" data-template-edit-mode="components">
+<html lang="zh-CN" data-deck-id="zhengti-zongjie-v2" data-mobile-adaptation="desktop-default" data-template-edit-mode="components">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -715,6 +715,21 @@
     .slide.title-slide .report-slide-body { display: flex; align-items: center; justify-content: center; }
     .slide.title-slide .head { width: 100%; margin: 0; }
     .slide.detail-slide .report-slide-body { font-size: clamp(0.5rem, 0.82vw, 0.68rem); }
+    .slide-block-chrome {
+      position: absolute; top: 0; left: 0; right: 0; z-index: 4;
+      pointer-events: none;
+      padding: clamp(0.35rem, 1vh, 0.55rem) clamp(0.55rem, 1.4vw, 0.85rem) 0;
+    }
+    .slide-block-chrome .block {
+      background: transparent; box-shadow: none; border: none; height: auto; overflow: visible;
+    }
+    .slide-block-chrome .bh { margin: 0; }
+    .slide-object-text .pcard,
+    .slide-object-text .c,
+    .slide-object-text .kd,
+    .slide-object-text .warn {
+      height: 100%; box-sizing: border-box; overflow: auto;
+    }
     .report-slide-body {
       width: 100%; height: 100%; overflow: hidden;
       font-size: clamp(0.58rem, 0.98vw, 0.78rem);
@@ -889,29 +904,28 @@
       .report-slide-body .kpi { grid-template-columns: repeat(2, 1fr); }
     }
 
-    /* === Summary slide: match screenshot density === */
+    /* === Summary slide: single-page density === */
     .slide.summary-slide .report-slide-body {
       font-size: clamp(0.52rem, 0.88vw, 0.72rem);
       line-height: 1.42;
     }
+    .slide.summary-slide .slide-block-chrome {
+      padding-top: clamp(0.25rem, 0.6vh, 0.45rem);
+    }
     .slide.summary-slide .report-slide-body h3.sub {
-      margin: clamp(0.18rem, 0.45vh, 0.32rem) 0 clamp(0.1rem, 0.3vh, 0.18rem);
+      margin: clamp(0.12rem, 0.35vh, 0.22rem) 0 clamp(0.08rem, 0.25vh, 0.15rem);
     }
     .slide.summary-slide .report-slide-body ul.clean li {
-      padding: clamp(0.12rem, 0.35vh, 0.22rem) 0 clamp(0.12rem, 0.35vh, 0.22rem) 1rem;
+      padding: clamp(0.1rem, 0.3vh, 0.18rem) 0 clamp(0.1rem, 0.3vh, 0.18rem) 1rem;
     }
     .slide.summary-slide .report-slide-body .warn {
-      margin-top: clamp(0.15rem, 0.4vh, 0.28rem);
-      padding: clamp(0.28rem, 0.7vh, 0.45rem) clamp(0.45rem, 1vw, 0.65rem);
+      margin: 0;
+      padding: clamp(0.25rem, 0.65vh, 0.4rem) clamp(0.4rem, 0.95vw, 0.6rem);
       font-size: clamp(0.5rem, 0.82vw, 0.66rem);
       line-height: 1.38;
     }
-    .slide.summary-slide .report-slide-body .grid2 {
-      gap: clamp(0.28rem, 0.65vw, 0.45rem);
-      margin-top: clamp(0.15rem, 0.35vh, 0.25rem);
-    }
     .slide.summary-slide .report-slide-body .pcard {
-      padding: clamp(0.28rem, 0.65vh, 0.42rem) clamp(0.35rem, 0.8vw, 0.5rem);
+      padding: clamp(0.25rem, 0.6vh, 0.38rem) clamp(0.32rem, 0.75vw, 0.48rem);
     }
     @media (max-height: 700px) {
       .slide.summary-slide .report-slide-body { font-size: clamp(0.48rem, 0.82vw, 0.64rem); }
@@ -1015,44 +1029,86 @@
 
 <div class="slides-offset">
 <section class="slide summary-slide visible" id="slide-0">
+  <div class="slide-block-chrome report-slide-body" aria-hidden="true"><div class="block open static"><div class="bh">整体总结</div></div></div>
   <div class="slide-edit-layer">
     <div class="slide-object" data-slide-object data-oid="s0-o0" data-object-type="text"
-         style="left:2%;top:1.5%;width:96%;height:97%;">
+         style="left:2.5%;top:5.0%;width:95.0%;height:9.0%;">
       <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
       <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
       <button type="button" class="slide-object-resize" aria-label="Resize"></button>
-      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="block static open reveal-block">
-<div class="bh">整体总结</div>
-<div class="bd">
-<p class="lead"><b class="k">一句话定性:</b>海外提货到首次上架,典型单约 40 天(目标 21 天)。时间主要不消耗在"货在路上",而在<span class="hi">单证与资料在链路里的等待和反复处理</span>。</p>
-<h3 class="sub">问题的本质:两条</h3>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><p class="lead"><b class="k">一句话定性:</b>海外提货到首次上架,典型单约 40 天(目标 21 天)。时间主要不消耗在"货在路上",而在<span class="hi">单证与资料在链路里的等待和反复处理</span>。</p></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o1" data-object-type="text"
+         style="left:2.5%;top:14.0%;width:95.0%;height:17.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><h3 class="sub">问题的本质:两条</h3>
 <ul class="clean">
 <li><b>瓶颈在"单证与资料流",不在物理搬运。</b>三个最耗时环节全部是建单 / 备案 / 资料 / 发运单证类;而提货、入仓、运输等物理环节都不慢——说明货往往是"备好了在等资料与单证"。</li>
 <li><b>资料与单证靠人工重复处理、流程串行且缺前置。</b>同一批信息在多环节被反复录入,资料要等质检报告出来才开始做,该早提醒的没前置——这才是资料流慢、且偶发卡死的根因。</li>
-</ul>
-<h3 class="sub">三个最耗时的环节(按严重度)</h3>
+</ul></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o2" data-object-type="text"
+         style="left:2.5%;top:31.0%;width:95.0%;height:15.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><h3 class="sub">三个最耗时的环节(按严重度)</h3>
 <ul class="clean">
 <li><b>① 质检报告 → 建 PR 资料</b>(全链路<span class="hi">最大单块,典型约 12 天</span>):资料、备案、建单的手工工作。</li>
 <li><b>② PR 审核 → PO 生成</b>:正常单 &lt;1 天,但少数单卡到上百天,<span class="hi">具体原因待下钻</span>。</li>
 <li><b>③ PO → 发货计划提交</b>:供应商资料(发票 / CheckList / SLI)不及时,叠加物流拖累。</li>
-</ul>
-<div class="warn"><b>一个结构性认知:</b>这条链是"物理流(提货→质检→运输)"和"单证流(建PR→PO→发运)"<b>并行推进</b>,各段时间不能简单相加。因此决定总时长的是关键路径。初步判断单证流很可能就是关键路径(货已备好、在等资料/PO/清关),此点建议团队优先验证——它决定后续投入的重心。</div>
-<h3 class="sub">分四类来解决</h3>
-<div class="grid2">
-<div class="pcard"><h4>A · 造工具、减重复(AI + 系统串联)</h4>
-<div class="row"><b>最关键:</b>从供单信息前置生成商品基础资料 / PDC,减少建 PR 时重复录入(主资料与合格证的复用流程需另行梳理,不宜一刀切)</div></div>
-<div class="pcard"><h4>B · 抓异常、通审批</h4>
+</ul></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o3" data-object-type="text"
+         style="left:2.5%;top:46.0%;width:95.0%;height:11.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="warn"><b>一个结构性认知:</b>这条链是"物理流(提货→质检→运输)"和"单证流(建PR→PO→发运)"<b>并行推进</b>,各段时间不能简单相加。因此决定总时长的是关键路径。初步判断单证流很可能就是关键路径(货已备好、在等资料/PO/清关),此点建议团队优先验证——它决定后续投入的重心。</div></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o4" data-object-type="text"
+         style="left:2.5%;top:57.0%;width:95.0%;height:4.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><h3 class="sub">分四类来解决</h3></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o5" data-object-type="text"
+         style="left:2.5%;top:61.0%;width:46.0%;height:17.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="pcard"><h4>A · 造工具、减重复(AI + 系统串联)</h4>
+<div class="row"><b>最关键:</b>从供单信息前置生成商品基础资料 / PDC,减少建 PR 时重复录入(主资料与合格证的复用流程需另行梳理,不宜一刀切)</div></div></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o6" data-object-type="text"
+         style="left:51.5%;top:61.0%;width:46.0%;height:17.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="pcard"><h4>B · 抓异常、通审批</h4>
 <div class="row"><b>最关键:</b>下钻 PR→PO 卡到上百天的具体原因,据此改进</div>
-<div class="row"><b>可较快启动:</b>启用现有全链路看板的超时预警 + 主动督办机制</div></div>
-<div class="pcard"><h4>C · 供应商前置(资料 + 备货)</h4>
+<div class="row"><b>可较快启动:</b>启用现有全链路看板的超时预警 + 主动督办机制</div></div></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o7" data-object-type="text"
+         style="left:2.5%;top:79.0%;width:46.0%;height:17.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="pcard"><h4>C · 供应商前置(资料 + 备货)</h4>
 <div class="row"><b>最关键:</b>推行随货资料包,一次前置消掉下游多段"催资料"</div>
-<div class="row"><b>可较快启动:</b>先对头部供应商试点</div></div>
-<div class="pcard"><h4>D · 结构性物理(欧洲物流 / Hub)</h4>
+<div class="row"><b>可较快启动:</b>先对头部供应商试点</div></div></div>
+    </div>
+    <div class="slide-object" data-slide-object data-oid="s0-o8" data-object-type="text"
+         style="left:51.5%;top:79.0%;width:46.0%;height:17.0%;">
+      <button type="button" class="slide-object-move" aria-label="Move object" title="Drag to move">⠿</button>
+      <button type="button" class="slide-object-delete" aria-label="Delete object">×</button>
+      <button type="button" class="slide-object-resize" aria-label="Resize"></button>
+      <div class="slide-object-text report-slide-body" contenteditable="false"><div class="pcard"><h4>D · 结构性物理(欧洲物流 / Hub)</h4>
 <div class="row"><b>最关键:</b>Hub 仓招标(意 / 港)+ 货代 SLA</div>
-<div class="row"><b>节奏:</b>周期长,非近期主战场</div></div>
-</div>
-</div>
-</div></div>
+<div class="row"><b>节奏:</b>周期长,非近期主战场</div></div></div>
     </div>
   </div>
 </section>
@@ -3850,9 +3906,7 @@
       h.addEventListener('click', function() { h.parentElement.classList.toggle('open'); });
     });
   }
-  function boot() {
-    initReportBlocks();
-  }
+  function boot() { initReportBlocks(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
   window.addEventListener('deck-slides-refreshed', boot);
