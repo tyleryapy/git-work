@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "editable-html-slides": {
+      "source": "rossyao2022/editable-html-slides",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "b5e4de48ada4b509bf91c8f989e5c9de66dfbd1c7f3470d292755186f0796ccd"
+    }
+  }
+}

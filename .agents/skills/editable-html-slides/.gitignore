@@ -1,0 +1,5 @@
+*.bak
+_preview/
+.DS_Store
+node_modules/
+examples/_*
