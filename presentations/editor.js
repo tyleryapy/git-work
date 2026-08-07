@@ -37,8 +37,10 @@
     var c = slot.cloneNode(true);
     c.querySelectorAll("[contenteditable]").forEach(function (n) { n.removeAttribute("contenteditable"); });
     c.querySelectorAll("[data-ed-text]").forEach(function (n) { n.removeAttribute("data-ed-text"); });
-    c.querySelectorAll(".ed-handle,.ed-del").forEach(function (n) { n.remove(); });
+    c.querySelectorAll("[data-ed-resize]").forEach(function (n) { n.removeAttribute("data-ed-resize"); });
+    c.querySelectorAll(".ed-handle,.ed-del,.ed-toggle").forEach(function (n) { n.remove(); });
     c.querySelectorAll(".ed-obj").forEach(function (n) { n.classList.remove("sel", "editing-text"); n.removeAttribute("contenteditable"); });
+    c.querySelectorAll(".ed-layout").forEach(function (n) { n.classList.remove("ed-layout", "sel"); });
     return c.innerHTML;
   }
   function payloadOf(slot) {
@@ -85,6 +87,25 @@
       if (el.closest("#detail,#steps,.mv,button,select,input,textarea,label")) return;
       el.setAttribute("data-ed-text", "");
     });
+    markLayout(slot);
+  }
+  function markLayout(slot) {
+    slot.querySelectorAll(".head,.kpi,.block,.pcard,.kd").forEach(function (el) {
+      el.setAttribute("data-ed-resize", "");
+      el.classList.add("ed-layout");
+    });
+    slot.querySelectorAll(".block:not(.static)>.bh").forEach(function (header) {
+      if (header.querySelector(".ed-toggle")) return;
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "ed-toggle"; b.textContent = "展开/收起";
+      b.setAttribute("contenteditable", "false");
+      b.addEventListener("click", function (e) {
+        e.preventDefault(); e.stopPropagation();
+        header.parentElement.classList.toggle("open");
+        record();
+      });
+      header.appendChild(b);
+    });
   }
   function setEditableIn(slot, on) {
     slot.querySelectorAll("[data-ed-text]").forEach(function (el) {
@@ -102,7 +123,7 @@
     setEditable(on);
     if (!on) { deselect(); closeFilm(); }
     launch.textContent = on ? "✓ 完成编辑" : "✎ 编辑";
-    if (on) toast("编辑模式：点字改 · 加图/拖动 · ⌘Z 撤销 · 页序可拖");
+    if (on) toast("编辑模式：点字改 · 点区块后拖右下角缩放 · 标题按钮展开/收起");
   }
 
   /* ---------- objects ---------- */
@@ -133,31 +154,50 @@
     var h = document.createElement("div"); h.className = "ed-handle"; o.appendChild(h);
     var d = document.createElement("button"); d.className = "ed-del"; d.textContent = "✕"; o.appendChild(d);
   }
+  function selectLayout(o) {
+    if (sel === o) return;
+    deselect(); sel = o; o.classList.add("sel");
+    var h = document.createElement("div"); h.className = "ed-handle"; h.title = "拖动缩放";
+    o.appendChild(h);
+  }
   function deselect() {
     if (!sel) return;
     sel.querySelectorAll(".ed-handle,.ed-del").forEach(function (n) { n.remove(); });
     sel.classList.remove("sel"); sel = null;
   }
-  function removeSel() { if (!sel) { return; } sel.remove(); sel = null; record(); }
+  function removeSel() {
+    if (!sel) return;
+    if (!sel.classList.contains("ed-obj")) { deselect(); return; }
+    sel.remove(); sel = null; record();
+  }
 
   /* ---------- pointer drag / resize ---------- */
   document.addEventListener("mousedown", function (e) {
     if (!isOn()) return;
-    var obj = e.target.closest(".ed-obj");
+    if (e.target.closest(".ed-toggle")) return;
+    var obj = e.target.closest(".ed-obj,[data-ed-resize]");
     if (!obj) { if (!e.target.closest("#ed-bar") && !e.target.closest("#ed-film")) deselect(); return; }
     if (obj.classList.contains("editing-text")) return;
     if (e.target.classList.contains("ed-del")) { removeSel(); e.preventDefault(); return; }
-    selectObj(obj);
+    var isLayout = obj.hasAttribute("data-ed-resize");
+    if (isLayout) selectLayout(obj); else selectObj(obj);
     var resizing = e.target.classList.contains("ed-handle");
+    if (isLayout && !resizing) return;
     var r = obj.getBoundingClientRect();
     drag = { obj: obj, resizing: resizing, x: e.clientX, y: e.clientY,
-      left: parseFloat(obj.style.left) || 0, top: parseFloat(obj.style.top) || 0, w: r.width };
+      layout: isLayout, left: parseFloat(obj.style.left) || 0,
+      top: parseFloat(obj.style.top) || 0, w: r.width, h: r.height };
     e.preventDefault();
   });
   document.addEventListener("mousemove", function (e) {
     if (!drag) return;
     var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-    if (drag.resizing) drag.obj.style.width = Math.max(40, drag.w + dx) + "px";
+    if (drag.layout) {
+      var maxW = drag.obj.parentElement ? drag.obj.parentElement.clientWidth : window.innerWidth;
+      drag.obj.style.width = Math.max(160, Math.min(maxW, drag.w + dx)) + "px";
+      drag.obj.style.minHeight = Math.max(48, drag.h + dy) + "px";
+    }
+    else if (drag.resizing) drag.obj.style.width = Math.max(40, drag.w + dx) + "px";
     else { drag.obj.style.left = (drag.left + dx) + "px"; drag.obj.style.top = (drag.top + dy) + "px"; }
   });
   document.addEventListener("mouseup", function () { if (drag) { drag = null; record(); } });
@@ -263,8 +303,10 @@
     root.querySelectorAll(".slide").forEach(function (s) {
       s.querySelectorAll("[contenteditable]").forEach(function (n) { n.removeAttribute("contenteditable"); });
       s.querySelectorAll("[data-ed-text]").forEach(function (n) { n.removeAttribute("data-ed-text"); });
-      s.querySelectorAll(".ed-handle,.ed-del").forEach(function (n) { n.remove(); });
+      s.querySelectorAll("[data-ed-resize]").forEach(function (n) { n.removeAttribute("data-ed-resize"); });
+      s.querySelectorAll(".ed-handle,.ed-del,.ed-toggle").forEach(function (n) { n.remove(); });
       s.querySelectorAll(".ed-obj").forEach(function (n) { n.classList.remove("sel", "editing-text"); });
+      s.querySelectorAll(".ed-layout").forEach(function (n) { n.classList.remove("ed-layout", "sel"); });
     });
     return "<!DOCTYPE html>\n" + root.outerHTML;
   }

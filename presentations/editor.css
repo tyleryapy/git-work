@@ -70,6 +70,20 @@ body.ed-on [data-ed-text]:focus{
   outline:2px solid var(--accent,#d97757); background:rgba(217,119,87,.07);
 }
 
+/* ---- existing report layout blocks ---- */
+.ed-layout{ position:relative; }
+body.ed-on .ed-layout{ transition:outline-color .12s ease; }
+body.ed-on .ed-layout:hover{ outline:1px dashed rgba(236,0,140,.42); outline-offset:3px; }
+body.ed-on .ed-layout.sel{ outline:2px solid var(--accent,#EC008C); outline-offset:3px; }
+body.ed-on .ed-layout.sel>.ed-handle{ display:block; }
+.ed-toggle{
+  display:none; flex:0 0 auto; margin-left:10px; padding:3px 8px;
+  border:1px solid currentColor; border-radius:6px; background:#fff;
+  color:var(--accent,#EC008C); font:600 10px/1.2 sans-serif; cursor:pointer;
+}
+body.ed-on .ed-toggle{ display:inline-flex; }
+.ed-toggle:hover{ color:#fff; background:var(--accent,#EC008C); }
+
 /* ---- added objects (images / text boxes) ---- */
 .ed-obj{ position:absolute; z-index:5; cursor:grab; }
 .ed-obj img{ display:block; width:100%; height:auto; border-radius:8px; pointer-events:none; }
