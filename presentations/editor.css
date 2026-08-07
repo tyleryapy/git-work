@@ -16,13 +16,14 @@
 
 /* ---- toolbar (only in edit mode) ---- */
 #ed-bar{
-  position:fixed; top:14px; left:50%; transform:translateX(-50%);
+  position:fixed; top:auto; bottom:14px; left:50%; transform:translateX(-50%);
   z-index:9000; display:none; gap:8px; align-items:center;
   padding:8px 10px; border-radius:12px;
   background:rgba(28,25,23,.92); backdrop-filter:blur(10px);
   border:1px solid var(--border-strong,rgba(217,119,87,.32));
   box-shadow:0 14px 40px rgba(0,0,0,.5);
   font-family:var(--font-sans,sans-serif);
+  max-width:calc(100vw - 28px); overflow-x:auto;
 }
 body.ed-on #ed-bar{ display:flex; }
 #ed-bar button{
