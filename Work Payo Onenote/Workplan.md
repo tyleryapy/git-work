@@ -187,6 +187,10 @@ New verticals
   - Stablecoin
 New playbook:
   - Audit firm partnership on IPO
+- [ ] SPIF using 录音卡
+- [ ] WeCom data analysis
+- [ ] Share automation tip
+- [ ] Install Cursor for Dandan with price function
 
 ## B2B
 
